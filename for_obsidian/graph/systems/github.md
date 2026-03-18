@@ -1,0 +1,80 @@
+---
+tags: [codex, graph, node]
+---
+
+# System Node: github
+
+Generated at: `2026-03-18T09:35:14+00:00`
+
+Connected agent nodes: **44**
+Connected skill nodes: **18**
+
+## Agent nodes
+- [[graph/agents/bash-pro|bash-pro]]
+- [[graph/agents/cloud-architect|cloud-architect]]
+- [[graph/agents/code-archaeologist|code-archaeologist]]
+- [[graph/agents/code-reviewer|code-reviewer]]
+- [[graph/agents/customer-success-manager|customer-success-manager]]
+- [[graph/agents/data-engineer|data-engineer]]
+- [[graph/agents/devops|devops]]
+- [[graph/agents/devops-cicd-expert|devops-cicd-expert]]
+- [[graph/agents/dotnet-architect|dotnet-architect]]
+- [[graph/agents/flutter-expert|flutter-expert]]
+- [[graph/agents/frontend-developer|frontend-developer]]
+- [[graph/agents/github-actions-expert|github-actions-expert]]
+- [[graph/agents/hackathon-ai-strategist|hackathon-ai-strategist]]
+- [[graph/agents/hr-pro|hr-pro]]
+- [[graph/agents/incident-responder|incident-responder]]
+- [[graph/agents/ios-developer|ios-developer]]
+- [[graph/agents/it-ops-orchestrator|it-ops-orchestrator]]
+- [[graph/agents/java-pro|java-pro]]
+- [[graph/agents/julia-pro|julia-pro]]
+- [[graph/agents/knowledge-synthesizer|knowledge-synthesizer]]
+- [[graph/agents/markdown-syntax-formatter|markdown-syntax-formatter]]
+- [[graph/agents/mcp-registry-navigator|mcp-registry-navigator]]
+- [[graph/agents/ml-data-expert|ml-data-expert]]
+- [[graph/agents/mlops-engineer|mlops-engineer]]
+- [[graph/agents/mobile|mobile]]
+- [[graph/agents/mobile-developer|mobile-developer]]
+- [[graph/agents/nextjs-app-router-developer|nextjs-app-router-developer]]
+- [[graph/agents/nextjs-developer|nextjs-developer]]
+- [[graph/agents/powershell-ui-architect|powershell-ui-architect]]
+- [[graph/agents/pr-audit-team|pr-audit-team]]
+- [[graph/agents/project-manager|project-manager]]
+- [[graph/agents/puppeteer-expert|puppeteer-expert]]
+- [[graph/agents/python-pro|python-pro]]
+- [[graph/agents/qa-expert|qa-expert]]
+- [[graph/agents/rails-expert|rails-expert]]
+- [[graph/agents/react-component-architect|react-component-architect]]
+- [[graph/agents/react-nextjs-expert|react-nextjs-expert]]
+- [[graph/agents/remix-expert|remix-expert]]
+- [[graph/agents/security-auditor|security-auditor]]
+- [[graph/agents/technical-researcher|technical-researcher]]
+- [[graph/agents/technical-writer|technical-writer]]
+- [[graph/agents/terraform-specialist|terraform-specialist]]
+- [[graph/agents/test-automator|test-automator]]
+- [[graph/agents/ui-visual-validator|ui-visual-validator]]
+
+## Skill nodes
+- [[graph/skills/changelog-generator|changelog-generator]]
+- [[graph/skills/connect|connect]]
+- [[graph/skills/connect-apps|connect-apps]]
+- [[graph/skills/gemini-computer-use|gemini-computer-use]]
+- [[graph/skills/gh-address-comments|gh-address-comments]]
+- [[graph/skills/gh-fix-ci|gh-fix-ci]]
+- [[graph/skills/github|github]]
+- [[graph/skills/lead-research-assistant|lead-research-assistant]]
+- [[graph/skills/linear|linear]]
+- [[graph/skills/macos-spm-app-packaging|macos-spm-app-packaging]]
+- [[graph/skills/markdown-url|markdown-url]]
+- [[graph/skills/meeting-insights-analyzer|meeting-insights-analyzer]]
+- [[graph/skills/read-github|read-github]]
+- [[graph/skills/skill-installer|skill-installer]]
+- [[graph/skills/swift-concurrency-expert|swift-concurrency-expert]]
+- [[graph/skills/swiftui-ui-patterns|swiftui-ui-patterns]]
+- [[graph/skills/swiftui-view-refactor|swiftui-view-refactor]]
+- [[graph/skills/webapp-testing|webapp-testing]]
+
+## Linked views
+- [[graph/00_Graph_Home]]
+- [[11_Capability_Catalog]]

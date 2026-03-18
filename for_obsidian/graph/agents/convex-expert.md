@@ -1,0 +1,48 @@
+---
+tags: [codex, graph, agent]
+---
+
+# Agent Node: convex-expert
+
+Generated at: `2026-03-18T09:35:14+00:00`
+
+## What this node does
+Use when Convex is actually in scope and you need Convex-specific schema, function, auth, indexing, migration, and operational expertise.
+
+## Connected roles
+- [[graph/roles/expert|expert]]
+- [[graph/roles/specialist|specialist]]
+
+## Connected systems
+- none
+
+## Connected languages
+- [[graph/languages/sql|sql]]
+- [[graph/languages/typescript|typescript]]
+
+## Related skill nodes
+- [[graph/skills/developer-growth-analysis|developer-growth-analysis]]
+- [[graph/skills/tailored-resume-generator|tailored-resume-generator]]
+- [[graph/skills/github|github]]
+- [[graph/skills/graphql-query-optimizer|graphql-query-optimizer]]
+- [[graph/skills/mcp-builder|mcp-builder]]
+- [[graph/skills/openai-docs-skill|openai-docs-skill]]
+- [[graph/skills/plan-harder|plan-harder]]
+- [[graph/skills/planner|planner]]
+- [[graph/skills/skill-creator|skill-creator]]
+- [[graph/skills/sql-query-starter|sql-query-starter]]
+- [[graph/skills/swift-concurrency-expert|swift-concurrency-expert]]
+
+## Related prompt nodes
+- [[graph/prompts/prompt-engineer|prompt-engineer]]
+- [[graph/prompts/swift-concurrency-expert-default-prompt|swift-concurrency-expert-default-prompt]]
+- [[graph/prompts/app-store-changelog-default-prompt|app-store-changelog-default-prompt]]
+- [[graph/prompts/github-default-prompt|github-default-prompt]]
+- [[graph/prompts/ios-debugger-agent-default-prompt|ios-debugger-agent-default-prompt]]
+- [[graph/prompts/macos-swiftpm-packaging-default-prompt|macos-swiftpm-packaging-default-prompt]]
+- [[graph/prompts/planner|planner]]
+- [[graph/prompts/project-skill-audit-default-prompt|project-skill-audit-default-prompt]]
+
+## Linked views
+- [[graph/00_Graph_Home]]
+- [[11_Capability_Catalog]]

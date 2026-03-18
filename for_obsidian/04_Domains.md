@@ -11,6 +11,7 @@ tags: [codex, domains]
 | Code review/risk checks | `release-audit` | `reviewer` |
 | Repo implementation | none or task-specific skill | `implementation_worker` |
 | Knowledge graph curation | `obsidian-vault-map` | `implementation_worker` |
+| Discover all available capability profiles | `11_Capability_Catalog` | browse full catalogs first |
 
 ## Linked views
 

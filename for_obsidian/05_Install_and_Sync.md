@@ -11,6 +11,14 @@ tags: [codex, install, setup]
 3. Copy `.codex/config.toml` to `~/.codex/config.codex-helper.example.toml`.
 4. Optionally append `templates/global-AGENTS.md` into `~/.codex/AGENTS.md`.
 
+## Obsidian (no commands)
+
+If someone downloads the ZIP and does not want to run commands:
+
+1. Open the repo folder.
+2. Copy the single `for_obsidian/` folder into their Obsidian vault.
+3. Open `for_obsidian/00_Home.md` in Obsidian.
+
 ## Script steps
 
 ```bash
@@ -31,6 +39,8 @@ tags: [codex, install, setup]
 ./scripts/export_obsidian_bundle.sh "/path/to/ObsidianVault"
 ./scripts/export_obsidian_bundle.sh --force "/path/to/ObsidianVault"
 ```
+
+The exported folder includes full generated catalogs under `for_obsidian/catalog/`.
 
 ## Linked views
 

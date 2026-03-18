@@ -12,7 +12,12 @@ tags: [codex, agents, roles]
 | `explorer` | Read-only codebase exploration | Fast discovery, architecture tracing, evidence gathering. |
 | `worker` | Execution and production work | Bounded implementation tasks with clear file ownership. |
 
-## Custom agents in this repo
+## Full catalog
+
+Use [[11_Capability_Catalog]] and [[catalog/01_Agents_Full]] for the complete generated list of every available agent profile.
+Use [[graph/maps/by-role]] and [[graph/maps/by-system]] to explore connected agent clusters.
+
+## Custom local agents in this repo
 
 | Agent name | File | Focus |
 |---|---|---|
@@ -25,3 +30,4 @@ tags: [codex, agents, roles]
 - [[03_Skills]]
 - [[04_Domains]]
 - [[06_Decision_Guide]]
+- [[11_Capability_Catalog]]

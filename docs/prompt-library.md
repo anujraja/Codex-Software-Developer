@@ -1,13 +1,11 @@
 # Prompt Library
 
-Generated at: `2026-03-18T08:06:29+00:00`
+Generated at: `2026-03-18T09:35:14+00:00`
 
 | Prompt | Summary | Source Count |
 |---|---|---:|
-| `agent-activation-prompts` | # 🎯 NEXUS Agent Activation Prompts > Ready-to-use prompt templates for activating any agent within the NEXUS pipeline. Copy, customize the `[PLACEHOLDERS]`, and deploy. --- ## Pipe... | 1 |
 | `app-store-changelog-default-prompt` | Generate App Store release notes | 1 |
 | `codex-plan` | # Codex Skill Expansion Plan Date: 2026-01-19 Goal: Fill meaningful gaps in the current skill library with high-impact skills for DevOps/automation, planning/architecture, and code... | 1 |
-| `design-image-prompt-engineer` | --- name: Image Prompt Engineer description: Expert photography prompt engineer specializing in crafting detailed, evocative prompts for AI image generation. Masters the art of tra... | 1 |
 | `github-default-prompt` | Use gh for GitHub workflows | 1 |
 | `ios-debugger-agent-default-prompt` | Debug iOS apps on Simulator | 1 |
 | `macos-swiftpm-packaging-default-prompt` | Package SwiftPM macOS apps | 1 |

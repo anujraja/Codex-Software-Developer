@@ -15,9 +15,11 @@ tags: [codex, decision-guide]
 | Execute scoped code changes | `implementation_worker` |
 | Validate external documentation quality | `docs_researcher` |
 | Do a final correctness-oriented review | `reviewer` |
+| Browse all available capability options | `11_Capability_Catalog` |
 
 ## Escalation path
 
 1. Start with the smallest specialized skill or agent.
 2. Move to `worker` only when write operations are needed.
 3. Use `reviewer` before final push when changes affect scripts, config, or onboarding.
+4. If you are unsure what exists, open [[11_Capability_Catalog]] and pick from full lists.

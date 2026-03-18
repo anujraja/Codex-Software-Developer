@@ -1,47 +1,47 @@
 # Agent/Role/Language/System Matrix
 
-Generated at: `2026-03-18T08:06:29+00:00`
+Generated at: `2026-03-18T09:35:14+00:00`
 
 ## Top Roles
 | Role | Count |
 |---|---:|
-| expert | 469 |
-| architect | 297 |
-| specialist | 187 |
-| engineer | 164 |
-| developer | 114 |
-| manager | 40 |
-| analyst | 25 |
-| admin | 24 |
-| orchestrator | 20 |
-| auditor | 19 |
-| designer | 18 |
-| reviewer | 17 |
-| writer | 12 |
-| tester | 6 |
-| coordinator | 6 |
+| expert | 369 |
+| architect | 230 |
+| engineer | 117 |
+| developer | 88 |
+| specialist | 76 |
+| manager | 24 |
+| admin | 20 |
+| reviewer | 16 |
+| analyst | 16 |
+| orchestrator | 16 |
+| auditor | 14 |
+| designer | 9 |
+| writer | 8 |
+| coordinator | 5 |
+| tester | 4 |
 | administrator | 2 |
 
 ## Top Languages
 | Language | Count |
 |---|---:|
-| c | 143 |
-| sql | 133 |
-| javascript | 110 |
-| python | 45 |
-| typescript | 41 |
-| swift | 38 |
-| react | 33 |
-| java | 19 |
-| php | 19 |
-| csharp | 17 |
-| ruby | 12 |
-| vue | 10 |
+| sql | 113 |
+| c | 88 |
+| javascript | 75 |
+| python | 42 |
+| typescript | 33 |
+| swift | 28 |
+| react | 27 |
+| java | 18 |
+| php | 18 |
+| csharp | 13 |
+| ruby | 11 |
 | rust | 9 |
-| powershell | 8 |
-| cpp | 7 |
+| vue | 9 |
 | elixir | 6 |
+| powershell | 6 |
 | kotlin | 5 |
+| cpp | 4 |
 | angular | 3 |
 | go | 3 |
 | scala | 2 |
@@ -50,20 +50,20 @@ Generated at: `2026-03-18T08:06:29+00:00`
 ## Top Systems
 | System | Count |
 |---|---:|
-| github | 87 |
-| docker | 63 |
-| git | 61 |
-| mcp | 40 |
-| kubernetes | 36 |
-| ios | 33 |
-| aws | 31 |
-| azure | 25 |
-| windows | 20 |
-| redis | 18 |
-| gcp | 18 |
-| slack | 12 |
-| postgres | 10 |
-| terraform | 10 |
-| linear | 9 |
+| github | 66 |
+| docker | 56 |
+| git | 46 |
+| kubernetes | 33 |
+| mcp | 32 |
+| aws | 25 |
+| ios | 24 |
+| azure | 23 |
+| gcp | 16 |
+| redis | 16 |
+| windows | 13 |
+| slack | 10 |
+| terraform | 9 |
 | linux | 7 |
+| postgres | 7 |
 | notion | 6 |
+| linear | 3 |

@@ -1,6 +1,6 @@
 # Canonical Prompt: project-skill-audit-default-prompt
 
-Generated at: `2026-03-18T08:06:29+00:00`
+Generated at: `2026-03-18T09:12:23+00:00`
 Translation status: `english`
 Canonical ID: `prompt--project-skill-audit-default-prompt`
 

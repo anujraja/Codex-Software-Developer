@@ -1,0 +1,30 @@
+---
+tags: [codex, graph, skill]
+---
+
+# Skill Node: unit-test-starter
+
+Generated at: `2026-03-18T09:35:14+00:00`
+
+## What this node does
+Generate starter unit tests for a small function or module. Use when a junior developer needs test scaffolding and edge cases.
+
+## Connected roles
+- none
+
+## Connected systems
+- none
+
+## Connected languages
+- none
+
+## Related agent nodes
+- none
+
+## Related prompt nodes
+- [[graph/prompts/prompts|prompts]]
+- [[graph/prompts/skill|skill]]
+
+## Linked views
+- [[graph/00_Graph_Home]]
+- [[11_Capability_Catalog]]

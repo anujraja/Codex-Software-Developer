@@ -2,7 +2,7 @@
 
 Primary relationship map for using this repository inside an Obsidian vault.
 
-Generated at: `2026-03-18T08:06:29+00:00`
+Generated at: `2026-03-18T09:35:14+00:00`
 
 ## Folder Graph
 ```mermaid
@@ -16,6 +16,9 @@ graph TD
   G --> H[knowledge/agents/]
   G --> I[knowledge/skills/]
   G --> J[knowledge/prompts/]
+  A --> K[for_obsidian/]
+  K --> L[for_obsidian/11_Capability_Catalog.md]
+  K --> M[for_obsidian/catalog/*]
 ```
 
 ## File Relationship Matrix
@@ -31,11 +34,12 @@ graph TD
 | `knowledge/agents/` | canonical catalogs | Canonical merged agent/subagent definitions. |
 | `knowledge/skills/` | canonical catalogs | Canonical skill references. |
 | `knowledge/prompts/` | canonical catalogs | Canonical prompt references. |
+| `for_obsidian/catalog/` | canonical catalogs | User-facing capability map for Obsidian. |
 
 ## Entry Points
-- Agents: `627` canonical files in `knowledge/agents/`
+- Agents: `473` canonical files in `knowledge/agents/`
 - Skills: `130` canonical files in `knowledge/skills/`
-- Prompts: `20` canonical files in `knowledge/prompts/`
+- Prompts: `18` canonical files in `knowledge/prompts/`
 
 ## Suggested Obsidian Vault Setup
 1. Open this repository as an Obsidian vault root.

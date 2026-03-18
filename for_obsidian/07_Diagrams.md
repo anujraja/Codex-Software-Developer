@@ -14,6 +14,8 @@ graph TD
   A --> E["Domains"]
   A --> F["Install & Sync"]
   A --> G["Decision Guide"]
+  A --> H["Capability Catalog"]
+  A --> I["Graph Explorer"]
 
   B --> B1["CLI"]
   B --> B2["App"]
@@ -30,6 +32,16 @@ graph TD
   D --> D1["codex-install-assistant"]
   D --> D2["obsidian-vault-map"]
   D --> D3["release-audit"]
+
+  H --> H1["All Agents"]
+  H --> H2["All Subagents"]
+  H --> H3["All Skills"]
+  H --> H4["What You Can Do"]
+
+  I --> I1["Role Nodes"]
+  I --> I2["System Nodes"]
+  I --> I3["Language Nodes"]
+  I --> I4["Playbooks"]
 
   E --> E1["Setup"]
   E --> E2["Docs"]
@@ -49,6 +61,8 @@ flowchart TD
   Q2 -->|No| Q3{"Need write access?"}
   Q3 -->|No| X["Use explorer/docs_researcher"]
   Q3 -->|Yes| W["Use implementation_worker or worker"]
+  Q1 -->|Not sure what exists| C["Open 11_Capability_Catalog"]
+  C --> G1["Open graph/00_Graph_Home for connected map"]
   W --> R{"Before push?"}
   R -->|Yes| V["Run release-audit + reviewer"]
   R -->|No| E["Continue implementation"]
