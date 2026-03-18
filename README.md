@@ -81,6 +81,7 @@ python3 scripts/validate_repo.py
 ## Routing And Decision Docs
 
 - Local install and sync: `docs/getting-all-assets-locally.md`
+- End-to-end setup and demo how-to: `docs/how-to-codex-helper-end-to-end.md`
 - Skill/agent routing playbook: `docs/routing-playbook.md`
 - Repo structure notes: `docs/repo-layout.md`
 - Codex official docs alignment (verified 2026-03-18): `docs/latest-openai-codex-notes-2026-03-18.md`

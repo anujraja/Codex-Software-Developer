@@ -1,6 +1,6 @@
 # Markdown Inventory
 
-_Generated on 2026-03-18 04:57:48 EDT_
+_Generated on 2026-03-18 05:03:42 EDT_
 
 This is a full markdown-file inventory for this repository.
 
@@ -15,6 +15,7 @@ This is a full markdown-file inventory for this repository.
 - `docs/agent-role-language-system-matrix.md`
 - `docs/developer-guide.md`
 - `docs/getting-all-assets-locally.md`
+- `docs/how-to-codex-helper-end-to-end.md`
 - `docs/latest-openai-codex-notes-2026-03-18.md`
 - `docs/merge-policy.md`
 - `docs/prompt-library.md`
