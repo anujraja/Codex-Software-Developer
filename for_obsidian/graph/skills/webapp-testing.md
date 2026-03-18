@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: webapp-testing
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.

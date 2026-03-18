@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: app-store-changelog
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Create user-facing App Store release notes by collecting and summarizing all user-impacting changes since the last git tag (or a specified ref). Use when asked to generate a comprehensive release changelog, App Store "What's New" text, or release notes based on git history or tags.

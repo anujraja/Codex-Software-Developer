@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: nlp-engineer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs NLP-specific implementation or analysis involving text processing, embeddings, ranking, or language-model-adjacent pipelines.

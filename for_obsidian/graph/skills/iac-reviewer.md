@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: iac-reviewer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Review infrastructure-as-code changes for safety and correctness. Use when a mid-level developer needs a second look on IaC.

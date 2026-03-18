@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: ios-debugger-agent
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use XcodeBuildMCP to build, run, launch, and debug the current iOS project on a booted simulator. Trigger when asked to run an iOS app, interact with the simulator UI, inspect on-screen state, capture logs/console output, or diagnose runtime behavior using XcodeBuildMCP tools.

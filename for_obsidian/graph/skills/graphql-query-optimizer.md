@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: graphql-query-optimizer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Optimize GraphQL queries and resolvers for performance. Use when a mid-level developer needs to reduce N+1 or payload size.

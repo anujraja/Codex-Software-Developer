@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: nextjs-developer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs Next.js-specific work across routing, rendering modes, server actions, data fetching, or deployment-sensitive frontend behavior.

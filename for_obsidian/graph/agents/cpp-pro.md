@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: cpp-pro
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs C++ work involving performance-sensitive code, memory ownership, concurrency, or systems-level integration. / Use when implementing cpp functionality with production-grade patterns and safeguards.

@@ -4,7 +4,7 @@ tags: [codex, graph, node]
 
 # System Node: linear
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:22+00:00`
 
 Connected agent nodes: **1**
 Connected skill nodes: **2**

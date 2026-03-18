@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: content-marketer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs product-adjacent content strategy or messaging that still has to stay grounded in real technical capabilities. / Use when content marketer knowledge must be documented clearly for implementation or operations.

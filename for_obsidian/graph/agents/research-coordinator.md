@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: research-coordinator
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when research coordinator work spans multiple steps and needs planning plus execution coordination.

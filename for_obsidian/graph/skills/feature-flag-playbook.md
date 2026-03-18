@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: feature-flag-playbook
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Plan feature flag rollout and cleanup. Use when a mid-level developer needs controlled release guidance.

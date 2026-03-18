@@ -4,7 +4,7 @@ tags: [codex, graph, prompt]
 
 # Prompt Node: prompt-engineer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 name = "prompt-engineer" description = "Use when a task needs prompt revision, instruction design, eval-oriented prompt comparison, or prompt-output contract tightening." model = "gpt-5.4" model_reasoning_effort = "hi... / name = "prompt-engineer" description = "Use when implementing prompt functionality with production-grade patterns and safeguards." model = "gpt-5.4" model_reasoning_effort = "medium" developer_instructions = """ You a...

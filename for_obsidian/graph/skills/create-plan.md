@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: create-plan
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Create a concise plan. Use when a user explicitly asks for a plan related to a coding task.

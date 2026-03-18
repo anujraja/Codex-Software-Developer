@@ -4,7 +4,7 @@ tags: [codex, graph, home]
 
 # Graph Home
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:22+00:00`
 
 This graph-first section is optimized for Obsidian exploration.
 

@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: tdd-orchestrator
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when enforcing red-green-refactor workflow and test-first delivery across tasks.

@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: debugging-checklist
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Provide a systematic debugging checklist. Use when a junior developer is stuck and needs a structured approach.

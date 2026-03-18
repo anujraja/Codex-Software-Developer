@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: error-message-explainer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Explain compiler/runtime errors in plain language. Use when a junior developer needs help understanding an error message.

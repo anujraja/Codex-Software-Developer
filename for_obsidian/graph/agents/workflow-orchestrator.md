@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: workflow-orchestrator
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when the parent agent needs an explicit Codex subagent workflow for a complex task with multiple stages.

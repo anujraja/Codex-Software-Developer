@@ -4,7 +4,7 @@ tags: [codex, graph, prompt]
 
 # Prompt Node: skill
 
-Generated at: `2026-03-18T09:35:15+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 --- name: prompt-optimization description: Improve and rewrite user prompts to reduce ambiguity and improve LLM output quality. Use when a user asks to optimize, refine, clarify, or rewrite a prompt for better results...

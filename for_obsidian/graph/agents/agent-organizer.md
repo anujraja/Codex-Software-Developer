@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: agent-organizer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:22+00:00`
 
 ## What this node does
 Use when the parent agent needs help choosing subagents and dividing a larger task into clean delegated threads.

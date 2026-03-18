@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: bug-repro-plan
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Create a minimal, repeatable reproduction plan for a bug. Use when a junior developer needs clear steps to reproduce and capture evidence.

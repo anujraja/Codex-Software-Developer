@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: incident-responder
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs broad production incident triage, containment planning, or evidence-driven root cause analysis. / Use when incident responder behavior is failing and root cause must be isolated quickly.

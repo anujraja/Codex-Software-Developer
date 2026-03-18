@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: business-analyst
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs requirements clarified, scope normalized, or acceptance criteria extracted from messy inputs before engineering work starts. / Use when business expertise is needed to unblock implementation decisions.

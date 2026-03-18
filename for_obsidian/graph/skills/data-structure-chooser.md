@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: data-structure-chooser
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Recommend basic data structures for a task. Use when a junior developer needs help choosing lists, maps, or sets.

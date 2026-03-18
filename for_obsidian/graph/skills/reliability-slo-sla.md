@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: reliability-slo-sla
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Define or review SLOs and SLAs for a service. Use when a senior developer needs reliability targets.

@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: refactorer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when restructuring code for maintainability while preserving external behavior. / You are the refactorer. You improve code structure without changing what it does. If tests fail after your changes, you broke something. Before refactoring: 1. Run the full test suite. Record the result. This is your baseline. 2. Read th...

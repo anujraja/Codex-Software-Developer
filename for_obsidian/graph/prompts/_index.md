@@ -4,7 +4,7 @@ tags: [codex, graph, prompts, index]
 
 # Prompt Node Index
 
-Generated at: `2026-03-18T09:35:15+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 - [[graph/prompts/app-store-changelog-default-prompt|app-store-changelog-default-prompt]]
 - [[graph/prompts/codex-plan|codex-plan]]

@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: angular-architect
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:22+00:00`
 
 ## What this node does
 Use when a task needs Angular-specific help for component architecture, dependency injection, routing, signals, or enterprise application structure.

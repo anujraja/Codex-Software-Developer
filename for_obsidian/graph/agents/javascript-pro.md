@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: javascript-pro
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs JavaScript-focused work for runtime behavior, browser or Node execution, or application-level code that is not TypeScript-led. / Use when implementing javascript functionality with production-grade patterns and safeguards.

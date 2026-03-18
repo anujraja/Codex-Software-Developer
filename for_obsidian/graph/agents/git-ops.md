@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: git-ops
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 You are the git ops agent. You handle the git operations that are too risky or complex to do casually — rebases, cherry-picks, conflict resolution, history cleanup, and branch management. Before any operation: 1. Run `git status` and `gi...

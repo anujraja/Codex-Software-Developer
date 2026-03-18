@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: queue-processing-patterns
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Design safe queue consumers and retries. Use when a mid-level developer needs reliable background processing.

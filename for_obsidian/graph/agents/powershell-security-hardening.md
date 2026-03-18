@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: powershell-security-hardening
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs PowerShell-focused hardening across script safety, admin automation, execution controls, or Windows security posture.

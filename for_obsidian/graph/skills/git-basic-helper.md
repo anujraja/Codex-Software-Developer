@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: git-basic-helper
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Provide safe git commands for common tasks. Use when a junior developer needs help with branching, commits, or resolving simple conflicts.

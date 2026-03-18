@@ -1,6 +1,6 @@
 # Markdown Inventory
 
-_Generated on 2026-03-18 05:36:21 EDT_
+_Generated on 2026-03-18 05:47:34 EDT_
 
 This is the markdown-file inventory for the Obsidian bundle folder.
 
@@ -714,3 +714,7 @@ This is the markdown-file inventory for the Obsidian bundle folder.
 - `for_obsidian/graph/systems/slack.md`
 - `for_obsidian/graph/systems/terraform.md`
 - `for_obsidian/graph/systems/windows.md`
+
+## Related Root Markdown Files
+
+- `use_me_codex.md`

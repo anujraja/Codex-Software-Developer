@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: pr-reviewer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Review a pull request for correctness, regressions, and missing tests. Use when a mid-level developer needs structured review guidance.

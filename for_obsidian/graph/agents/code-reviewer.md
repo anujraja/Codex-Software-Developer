@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: code-reviewer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use after implementation to surface bugs, regressions, and missing test coverage. / Use when a task needs a broader code-health review covering maintainability, design clarity, and risky implementation choices in addition to correctness.

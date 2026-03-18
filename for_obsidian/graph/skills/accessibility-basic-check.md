@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: accessibility-basic-check
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Run a basic accessibility checklist for UI changes. Use when a junior developer needs quick a11y guidance.

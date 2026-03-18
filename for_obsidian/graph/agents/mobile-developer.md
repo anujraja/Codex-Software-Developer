@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: mobile-developer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs mobile implementation or debugging across app lifecycle, API integration, and device/platform-specific UX constraints. / Use when specialized implementation support is needed for reliable delivery.

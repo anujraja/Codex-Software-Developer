@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: security-engineer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs infrastructure and platform security engineering across IAM, secrets, network controls, or hardening work.

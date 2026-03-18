@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: convex-expert
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when Convex is actually in scope and you need Convex-specific schema, function, auth, indexing, migration, and operational expertise.

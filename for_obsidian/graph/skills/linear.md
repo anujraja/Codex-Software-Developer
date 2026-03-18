@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: linear
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.

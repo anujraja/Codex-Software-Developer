@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: scalability-assessment
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Assess a system for growth bottlenecks. Use when a senior developer needs to evaluate scaling limits.

@@ -4,7 +4,7 @@ tags: [codex, obsidian, catalog, capabilities]
 
 # Capability Catalog
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:22+00:00`
 
 This note is your single jump point for all installed capability profiles.
 

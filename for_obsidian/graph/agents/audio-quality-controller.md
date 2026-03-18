@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: audio-quality-controller
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when audio controller expertise is needed to unblock implementation decisions.

@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: data-analyst
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs data interpretation, metric breakdown, trend explanation, or decision support from existing analytics outputs. / Use when specialized expertise is needed to unblock delivery on this task.

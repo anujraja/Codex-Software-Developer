@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: legal-advisor
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs legal-risk spotting in product or engineering behavior, especially around terms, data handling, or externally visible commitments. / Use when legal advisor expertise is needed to unblock implementation decisions.

@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: backend-developer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs scoped backend implementation or backend bug fixes after the owning path is known. / Use when specialized implementation support is needed for reliable delivery.

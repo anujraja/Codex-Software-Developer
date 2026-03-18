@@ -4,7 +4,7 @@ tags: [codex, graph, prompt]
 
 # Prompt Node: prompts
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 # Prompt Templates ## Planner Prompt (Codex/Claude/Gemini) ```text You are Council Planner. You must produce a high-quality implementation plan. Rules: - Do NOT ask questions. Use only the provided task brief. - Read...

@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: api-contract-checker
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Validate API changes against an expected contract. Use when a mid-level developer needs to detect breaking changes.

@@ -4,7 +4,7 @@ tags: [codex, graph, playbook]
 
 # Playbook: Backend Developer
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:22+00:00`
 
 Use this path for service logic, APIs, data models, and backend architecture decisions.
 

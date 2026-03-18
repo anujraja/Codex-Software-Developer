@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: ci-failure-triage
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Diagnose CI failures and stabilize pipelines. Use when a mid-level developer needs to resolve flaky or failing builds.

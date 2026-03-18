@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: quant-analyst
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Use when a task needs quantitative analysis of models, strategies, simulations, or numeric decision logic. / Use when quant expertise is needed to unblock implementation decisions.

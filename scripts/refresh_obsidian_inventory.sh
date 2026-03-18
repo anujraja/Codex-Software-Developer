@@ -19,6 +19,11 @@ TARGET_ROOT="${REPO_ROOT}/for_obsidian"
     | while read -r path; do
       printf -- '- `%s`\n' "${path}"
     done
+
+  if [[ -f "${REPO_ROOT}/use_me_codex.md" ]]; then
+    printf '\n## Related Root Markdown Files\n\n'
+    printf -- '- `use_me_codex.md`\n'
+  fi
 } > "${OUTPUT_FILE}"
 
 printf 'Wrote inventory: %s\n' "${OUTPUT_FILE}"

@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: observability-setup
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Set up metrics, logs, and traces for a service. Use when a mid-level developer needs basic observability coverage.

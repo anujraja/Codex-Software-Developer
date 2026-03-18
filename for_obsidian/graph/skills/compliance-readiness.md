@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: compliance-readiness
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 Assess readiness for compliance audits. Use when a senior developer needs a gap analysis for standards.

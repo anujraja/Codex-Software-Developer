@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: skill-share
 
-Generated at: `2026-03-18T09:35:14+00:00`
+Generated at: `2026-03-18T09:44:23+00:00`
 
 ## What this node does
 A skill that creates new Claude skills and automatically shares them on Slack using Rube for seamless team collaboration and skill discovery.
