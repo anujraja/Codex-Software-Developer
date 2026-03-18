@@ -6,7 +6,16 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
 CODEX_HOME="${CODEX_HOME:-${HOME}/.codex}"
 AGENT_TARGET_DIR="${AGENT_TARGET_DIR:-${CODEX_HOME}/agents}"
-SKILL_TARGET_DIR="${SKILL_TARGET_DIR:-${HOME}/.agents/skills}"
+
+if [[ -n "${SKILL_TARGET_DIR:-}" ]]; then
+  SKILL_TARGET_RESOLUTION_REASON="SKILL_TARGET_DIR environment override"
+elif [[ -d "${CODEX_HOME}/skills" ]]; then
+  SKILL_TARGET_DIR="${CODEX_HOME}/skills"
+  SKILL_TARGET_RESOLUTION_REASON="existing CODEX_HOME skills directory detected at ${CODEX_HOME}/skills"
+else
+  SKILL_TARGET_DIR="${HOME}/.agents/skills"
+  SKILL_TARGET_RESOLUTION_REASON="fallback to official user-level skills path ~/.agents/skills"
+fi
 
 FORCE=0
 
@@ -18,6 +27,8 @@ Creates symlinks from this repo into your local Codex folders.
 
 Options:
   --force   Replace existing files/directories at the destination
+  SKILL_TARGET_DIR env override is respected.
+  Default auto-resolution: \$CODEX_HOME/skills if present, else ~/.agents/skills
 USAGE
 }
 
@@ -38,6 +49,8 @@ while (($# > 0)); do
   esac
   shift
 done
+
+printf 'Skill target resolved to %s (%s)\n' "${SKILL_TARGET_DIR}" "${SKILL_TARGET_RESOLUTION_REASON}"
 
 mkdir -p "${AGENT_TARGET_DIR}" "${SKILL_TARGET_DIR}"
 

@@ -8,6 +8,7 @@ This file captures the specific official-doc points used to shape this repo.
 - Codex CLI docs confirm first run prompts sign-in and support ChatGPT account or API key.
 - Current model guidance in Codex models docs says to start with `gpt-5.4` for most tasks and use `gpt-5.4-mini` for faster/lower-cost tasks.
 - Skills docs use `~/.agents/skills` for user-level skills and `.agents/skills` for project-level skills.
+- This repo's install/link scripts intentionally support a compatibility behavior: if `~/.codex/skills` already exists, that path is used by default; otherwise they fall back to `~/.agents/skills`.
 - Subagents docs use `~/.codex/agents` for user-level custom agents and `.codex/agents` for project-level agents.
 - AGENTS docs describe layered instruction discovery (`~/.codex/AGENTS.md`, repo `AGENTS.md`, and parent traversal).
 

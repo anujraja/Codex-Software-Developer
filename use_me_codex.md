@@ -20,7 +20,9 @@ Install this repo's custom agents and skills into the user's local Codex setup s
 2. Detect install paths:
    - `CODEX_HOME` (default: `~/.codex`)
    - agent target (default: `~/.codex/agents`)
-   - skill target (default: `~/.agents/skills`)
+   - skill target (default auto-resolution):
+     - use `~/.codex/skills` when `~/.codex/skills` already exists
+     - otherwise use `~/.agents/skills` (official Codex skills docs user path)
 3. Run safe install script.
 4. Verify installed files.
 5. Optionally enable global AGENTS guidance (only if user wants it).
@@ -35,8 +37,16 @@ Use repository root as working directory.
 ./scripts/install_codex_helper.sh
 
 # 2) verify
-ls "${CODEX_HOME:-$HOME/.codex}/agents"
-ls "${HOME}/.agents/skills"
+CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
+if [ -n "${SKILL_TARGET_DIR:-}" ]; then
+  RESOLVED_SKILL_TARGET_DIR="$SKILL_TARGET_DIR"
+elif [ -d "$CODEX_HOME/skills" ]; then
+  RESOLVED_SKILL_TARGET_DIR="$CODEX_HOME/skills"
+else
+  RESOLVED_SKILL_TARGET_DIR="$HOME/.agents/skills"
+fi
+ls "$CODEX_HOME/agents"
+ls "$RESOLVED_SKILL_TARGET_DIR"
 
 # 3) optional: include global guidance in ~/.codex/AGENTS.md
 ./scripts/install_codex_helper.sh --with-global-guidance
@@ -77,5 +87,6 @@ Always provide:
 ```bash
 ./scripts/install_codex_helper.sh --dry-run
 echo "${CODEX_HOME:-$HOME/.codex}"
-test -d "${HOME}/.agents/skills" && echo "skills path exists"
+test -d "${CODEX_HOME:-$HOME/.codex}/skills" && echo "codex skills path exists"
+test -d "${HOME}/.agents/skills" && echo "agents skills path exists"
 ```

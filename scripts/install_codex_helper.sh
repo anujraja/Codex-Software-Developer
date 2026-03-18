@@ -6,7 +6,16 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
 CODEX_HOME="${CODEX_HOME:-${HOME}/.codex}"
 AGENT_TARGET_DIR="${AGENT_TARGET_DIR:-${CODEX_HOME}/agents}"
-SKILL_TARGET_DIR="${SKILL_TARGET_DIR:-${HOME}/.agents/skills}"
+
+if [[ -n "${SKILL_TARGET_DIR:-}" ]]; then
+  SKILL_TARGET_RESOLUTION_REASON="SKILL_TARGET_DIR environment override"
+elif [[ -d "${CODEX_HOME}/skills" ]]; then
+  SKILL_TARGET_DIR="${CODEX_HOME}/skills"
+  SKILL_TARGET_RESOLUTION_REASON="existing CODEX_HOME skills directory detected at ${CODEX_HOME}/skills"
+else
+  SKILL_TARGET_DIR="${HOME}/.agents/skills"
+  SKILL_TARGET_RESOLUTION_REASON="fallback to official user-level skills path ~/.agents/skills"
+fi
 
 GLOBAL_TEMPLATE="${REPO_ROOT}/templates/global-AGENTS.md"
 CONFIG_TEMPLATE="${REPO_ROOT}/.codex/config.toml"
@@ -27,6 +36,8 @@ Options:
   --force                 Overwrite matching agents/skills (with backup)
   --with-global-guidance  Append Codex Helper guidance block to ~/.codex/AGENTS.md
   --dry-run               Show what would happen without writing
+  SKILL_TARGET_DIR        Optional env override for skill install destination
+                          Default auto-resolution: \$CODEX_HOME/skills if present, else ~/.agents/skills
   -h, --help              Show help
 USAGE
 }
@@ -82,6 +93,7 @@ TIMESTAMP="$(date +%Y%m%d-%H%M%S)"
 BACKUP_ROOT="${CODEX_HOME}/backups/codex-helper-${TIMESTAMP}"
 
 if [[ "${DRY_RUN}" -eq 1 ]]; then
+  log "[dry-run] Skill target resolved to ${SKILL_TARGET_DIR} (${SKILL_TARGET_RESOLUTION_REASON})"
   log "[dry-run] Would copy agents from ${REPO_ROOT}/.codex/agents to ${AGENT_TARGET_DIR}"
   log "[dry-run] Would copy skills from ${REPO_ROOT}/.agents/skills to ${SKILL_TARGET_DIR}"
   log "[dry-run] Would copy config template to ${CODEX_HOME}/config.codex-helper.example.toml"
@@ -90,6 +102,8 @@ if [[ "${DRY_RUN}" -eq 1 ]]; then
   fi
   exit 0
 fi
+
+log "Skill target resolved to ${SKILL_TARGET_DIR} (${SKILL_TARGET_RESOLUTION_REASON})"
 
 mkdir -p "${CODEX_HOME}" "${AGENT_TARGET_DIR}" "${SKILL_TARGET_DIR}"
 

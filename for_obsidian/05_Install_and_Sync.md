@@ -7,7 +7,10 @@ tags: [codex, install, setup]
 ## Human steps
 
 1. Copy `.codex/agents/*.toml` to `~/.codex/agents/`.
-2. Copy `.agents/skills/*` to `~/.agents/skills/`.
+2. Copy `.agents/skills/*` to a resolved user skill path:
+   - use `~/.codex/skills/` if it already exists
+   - otherwise use `~/.agents/skills/` (official user-level skills docs path)
+   - `SKILL_TARGET_DIR` can override either path
 3. Copy `.codex/config.toml` to `~/.codex/config.codex-helper.example.toml`.
 4. Optionally append `templates/global-AGENTS.md` into `~/.codex/AGENTS.md`.
 

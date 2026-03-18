@@ -10,6 +10,11 @@ From this repo root:
 ./scripts/install_codex_helper.sh
 ```
 
+Skill target default behavior:
+- if `~/.codex/skills` already exists, scripts install/link skills there
+- otherwise scripts use `~/.agents/skills` (official Codex docs user-level skills path)
+- set `SKILL_TARGET_DIR` to explicitly override either default
+
 Optional flags:
 
 ```bash
@@ -41,38 +46,52 @@ Use symlinks so updates in this repo immediately reflect in local Codex paths:
 
 ## Manual method
 
-1. Create target folders if missing:
+1. Resolve install targets:
 
 ```bash
-mkdir -p ~/.codex/agents
-mkdir -p ~/.agents/skills
+CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
+if [ -n "${SKILL_TARGET_DIR:-}" ]; then
+  RESOLVED_SKILL_TARGET_DIR="$SKILL_TARGET_DIR"
+elif [ -d "$CODEX_HOME/skills" ]; then
+  RESOLVED_SKILL_TARGET_DIR="$CODEX_HOME/skills"
+else
+  RESOLVED_SKILL_TARGET_DIR="$HOME/.agents/skills"
+fi
+echo "Using skill target: $RESOLVED_SKILL_TARGET_DIR"
 ```
 
-2. Copy custom agents:
+2. Create target folders if missing:
 
 ```bash
-cp .codex/agents/*.toml ~/.codex/agents/
+mkdir -p "$CODEX_HOME/agents"
+mkdir -p "$RESOLVED_SKILL_TARGET_DIR"
 ```
 
-3. Copy custom skills:
+3. Copy custom agents:
 
 ```bash
-cp -R .agents/skills/* ~/.agents/skills/
+cp .codex/agents/*.toml "$CODEX_HOME/agents/"
 ```
 
-4. Copy config template:
+4. Copy custom skills:
 
 ```bash
-cp .codex/config.toml ~/.codex/config.codex-helper.example.toml
+cp -R .agents/skills/* "$RESOLVED_SKILL_TARGET_DIR/"
 ```
 
-5. Optional: append global guidance block from `templates/global-AGENTS.md` into `~/.codex/AGENTS.md`.
+5. Copy config template:
+
+```bash
+cp .codex/config.toml "$CODEX_HOME/config.codex-helper.example.toml"
+```
+
+6. Optional: append global guidance block from `templates/global-AGENTS.md` into `~/.codex/AGENTS.md`.
 
 ## Verify installation
 
 ```bash
-ls ~/.codex/agents
-ls ~/.agents/skills
+ls "$CODEX_HOME/agents"
+ls "$RESOLVED_SKILL_TARGET_DIR"
 codex --version
 ```
 

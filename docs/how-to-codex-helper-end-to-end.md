@@ -60,8 +60,16 @@ Optional:
 Verify:
 
 ```bash
-ls ~/.codex/agents
-ls ~/.agents/skills
+CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
+if [ -n "${SKILL_TARGET_DIR:-}" ]; then
+  RESOLVED_SKILL_TARGET_DIR="$SKILL_TARGET_DIR"
+elif [ -d "$CODEX_HOME/skills" ]; then
+  RESOLVED_SKILL_TARGET_DIR="$CODEX_HOME/skills"
+else
+  RESOLVED_SKILL_TARGET_DIR="$HOME/.agents/skills"
+fi
+ls "$CODEX_HOME/agents"
+ls "$RESOLVED_SKILL_TARGET_DIR"
 ```
 
 ## 5. Test Drive In A New Project (Website Login + Local DB)

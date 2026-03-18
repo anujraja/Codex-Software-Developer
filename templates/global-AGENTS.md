@@ -5,7 +5,9 @@
 - Prefer custom `docs_researcher` for docs-lookup and source-validation tasks.
 - Prefer custom `implementation_worker` for bounded implementation tasks.
 - Use `explorer` first when mapping unfamiliar codebases.
-- Use custom skills in `~/.agents/skills/` when their task boundaries match.
+- Use custom skills from the active user skill path:
+  - `~/.agents/skills/` (official docs path)
+  - `~/.codex/skills/` (workspace-compatible path used by some setups)
 
 ### Quick routing
 
