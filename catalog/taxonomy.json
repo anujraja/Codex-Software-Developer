@@ -1,0 +1,1055 @@
+{
+  "categories": [
+    {
+      "count": 401,
+      "name": "agents"
+    },
+    {
+      "count": 136,
+      "name": "categories"
+    },
+    {
+      "count": 79,
+      "name": "skills"
+    },
+    {
+      "count": 4,
+      "name": "prompts"
+    },
+    {
+      "count": 3,
+      "name": ".codex"
+    },
+    {
+      "count": 2,
+      "name": "app-store-changelog"
+    },
+    {
+      "count": 2,
+      "name": "github"
+    },
+    {
+      "count": 2,
+      "name": "ios-debugger-agent"
+    },
+    {
+      "count": 2,
+      "name": "macos-spm-app-packaging"
+    },
+    {
+      "count": 2,
+      "name": "project-skill-audit"
+    },
+    {
+      "count": 2,
+      "name": "react-component-performance"
+    },
+    {
+      "count": 2,
+      "name": "swift-concurrency-expert"
+    },
+    {
+      "count": 2,
+      "name": "swiftui-liquid-glass"
+    },
+    {
+      "count": 2,
+      "name": "swiftui-performance-audit"
+    },
+    {
+      "count": 2,
+      "name": "swiftui-ui-patterns"
+    },
+    {
+      "count": 2,
+      "name": "swiftui-view-refactor"
+    },
+    {
+      "count": 1,
+      "name": "brand-guidelines"
+    },
+    {
+      "count": 1,
+      "name": "canvas-design"
+    },
+    {
+      "count": 1,
+      "name": "changelog-generator"
+    },
+    {
+      "count": 1,
+      "name": "competitive-ads-extractor"
+    },
+    {
+      "count": 1,
+      "name": "connect"
+    },
+    {
+      "count": 1,
+      "name": "connect-apps"
+    },
+    {
+      "count": 1,
+      "name": "content-research-writer"
+    },
+    {
+      "count": 1,
+      "name": "create-plan"
+    },
+    {
+      "count": 1,
+      "name": "developer-growth-analysis"
+    },
+    {
+      "count": 1,
+      "name": "domain-name-brainstormer"
+    },
+    {
+      "count": 1,
+      "name": "email-draft-polish"
+    },
+    {
+      "count": 1,
+      "name": "file-organizer"
+    },
+    {
+      "count": 1,
+      "name": "gh-address-comments"
+    },
+    {
+      "count": 1,
+      "name": "gh-fix-ci"
+    },
+    {
+      "count": 1,
+      "name": "image-enhancer"
+    },
+    {
+      "count": 1,
+      "name": "internal-comms"
+    },
+    {
+      "count": 1,
+      "name": "invoice-organizer"
+    },
+    {
+      "count": 1,
+      "name": "langsmith-fetch"
+    },
+    {
+      "count": 1,
+      "name": "lead-research-assistant"
+    },
+    {
+      "count": 1,
+      "name": "linear"
+    },
+    {
+      "count": 1,
+      "name": "mcp-builder"
+    },
+    {
+      "count": 1,
+      "name": "meeting-insights-analyzer"
+    },
+    {
+      "count": 1,
+      "name": "meeting-notes-and-actions"
+    },
+    {
+      "count": 1,
+      "name": "notion-knowledge-capture"
+    },
+    {
+      "count": 1,
+      "name": "notion-meeting-intelligence"
+    },
+    {
+      "count": 1,
+      "name": "notion-research-documentation"
+    },
+    {
+      "count": 1,
+      "name": "notion-spec-to-implementation"
+    },
+    {
+      "count": 1,
+      "name": "raffle-winner-picker"
+    },
+    {
+      "count": 1,
+      "name": "skill-creator"
+    },
+    {
+      "count": 1,
+      "name": "skill-installer"
+    },
+    {
+      "count": 1,
+      "name": "skill-share"
+    },
+    {
+      "count": 1,
+      "name": "slack-gif-creator"
+    },
+    {
+      "count": 1,
+      "name": "spreadsheet-formula-helper"
+    },
+    {
+      "count": 1,
+      "name": "support-ticket-triage"
+    },
+    {
+      "count": 1,
+      "name": "tailored-resume-generator"
+    },
+    {
+      "count": 1,
+      "name": "template-skill"
+    },
+    {
+      "count": 1,
+      "name": "theme-factory"
+    },
+    {
+      "count": 1,
+      "name": "webapp-testing"
+    },
+    {
+      "count": 1,
+      "name": "video-downloader"
+    },
+    {
+      "count": 1,
+      "name": "strategy"
+    },
+    {
+      "count": 1,
+      "name": "design"
+    }
+  ],
+  "counts": {
+    "agents": 535,
+    "prompts": 21,
+    "skills": 130,
+    "total_entities": 686
+  },
+  "generated_at_utc": "2026-03-18T08:03:37+00:00",
+  "jobs": [
+    {
+      "count": 412,
+      "name": "agents"
+    },
+    {
+      "count": 136,
+      "name": "categories"
+    },
+    {
+      "count": 123,
+      "name": "general"
+    },
+    {
+      "count": 82,
+      "name": "skills"
+    },
+    {
+      "count": 50,
+      "name": "skill-md"
+    },
+    {
+      "count": 46,
+      "name": "languages-runtime"
+    },
+    {
+      "count": 39,
+      "name": "architecture-orchestration"
+    },
+    {
+      "count": 27,
+      "name": "backend-api"
+    },
+    {
+      "count": 26,
+      "name": "frontend-ui"
+    },
+    {
+      "count": 26,
+      "name": "02-language-specialists"
+    },
+    {
+      "count": 22,
+      "name": "data-ai-ml"
+    },
+    {
+      "count": 17,
+      "name": "devops-cloud-infra"
+    },
+    {
+      "count": 16,
+      "name": "04-quality-security"
+    },
+    {
+      "count": 16,
+      "name": "03-infrastructure"
+    },
+    {
+      "count": 16,
+      "name": "databases-storage"
+    },
+    {
+      "count": 16,
+      "name": "security"
+    },
+    {
+      "count": 15,
+      "name": "documentation-content"
+    },
+    {
+      "count": 13,
+      "name": "05-data-ai"
+    },
+    {
+      "count": 13,
+      "name": "06-developer-experience"
+    },
+    {
+      "count": 12,
+      "name": "01-core-development"
+    },
+    {
+      "count": 12,
+      "name": "07-specialized-domains"
+    },
+    {
+      "count": 11,
+      "name": "08-business-product"
+    },
+    {
+      "count": 11,
+      "name": "foundation"
+    },
+    {
+      "count": 10,
+      "name": "09-meta-orchestration"
+    },
+    {
+      "count": 9,
+      "name": "testing-quality"
+    },
+    {
+      "count": 8,
+      "name": "planning"
+    },
+    {
+      "count": 7,
+      "name": "blockchain-web3"
+    },
+    {
+      "count": 7,
+      "name": "10-research-analysis"
+    },
+    {
+      "count": 7,
+      "name": "infra"
+    },
+    {
+      "count": 6,
+      "name": "teams"
+    },
+    {
+      "count": 5,
+      "name": "mobile"
+    },
+    {
+      "count": 4,
+      "name": "api"
+    },
+    {
+      "count": 4,
+      "name": "backend"
+    },
+    {
+      "count": 4,
+      "name": "performance"
+    },
+    {
+      "count": 4,
+      "name": "docs"
+    },
+    {
+      "count": 4,
+      "name": "prompts"
+    },
+    {
+      "count": 3,
+      "name": "product-business"
+    },
+    {
+      "count": 3,
+      "name": "frontend"
+    },
+    {
+      "count": 3,
+      "name": "testing"
+    },
+    {
+      "count": 3,
+      "name": "data"
+    },
+    {
+      "count": 3,
+      "name": "codex"
+    },
+    {
+      "count": 2,
+      "name": "app-store-changelog"
+    },
+    {
+      "count": 2,
+      "name": "architecture"
+    },
+    {
+      "count": 2,
+      "name": "github"
+    },
+    {
+      "count": 2,
+      "name": "reliability"
+    },
+    {
+      "count": 2,
+      "name": "ios-debugger-agent"
+    },
+    {
+      "count": 2,
+      "name": "llm-council"
+    },
+    {
+      "count": 2,
+      "name": "macos-spm-app-packaging"
+    },
+    {
+      "count": 2,
+      "name": "project-skill-audit"
+    },
+    {
+      "count": 2,
+      "name": "react-component-performance"
+    },
+    {
+      "count": 2,
+      "name": "swift-concurrency-expert"
+    },
+    {
+      "count": 2,
+      "name": "swiftui-liquid-glass"
+    },
+    {
+      "count": 2,
+      "name": "swiftui-performance-audit"
+    },
+    {
+      "count": 2,
+      "name": "swiftui-ui-patterns"
+    },
+    {
+      "count": 2,
+      "name": "swiftui-view-refactor"
+    },
+    {
+      "count": 1,
+      "name": "accessibility-wcag-auditor-toml"
+    },
+    {
+      "count": 1,
+      "name": "agents-config-block-toml"
+    },
+    {
+      "count": 1,
+      "name": "api-designer-toml"
+    },
+    {
+      "count": 1,
+      "name": "architect-toml"
+    },
+    {
+      "count": 1,
+      "name": "backend-toml"
+    },
+    {
+      "count": 1,
+      "name": "content-writer-toml"
+    },
+    {
+      "count": 1,
+      "name": "data-pipeline-toml"
+    },
+    {
+      "count": 1,
+      "name": "debugger-toml"
+    },
+    {
+      "count": 1,
+      "name": "devops-toml"
+    },
+    {
+      "count": 1,
+      "name": "documenter-toml"
+    },
+    {
+      "count": 1,
+      "name": "frontend-toml"
+    },
+    {
+      "count": 1,
+      "name": "git-ops-toml"
+    },
+    {
+      "count": 1,
+      "name": "migrator-toml"
+    },
+    {
+      "count": 1,
+      "name": "mobile-toml"
+    },
+    {
+      "count": 1,
+      "name": "performance-toml"
+    },
+    {
+      "count": 1,
+      "name": "plan-checker-toml"
+    },
+    {
+      "count": 1,
+      "name": "refactorer-toml"
+    },
+    {
+      "count": 1,
+      "name": "reviewer-toml"
+    },
+    {
+      "count": 1,
+      "name": "scout-toml"
+    },
+    {
+      "count": 1,
+      "name": "security-toml"
+    },
+    {
+      "count": 1,
+      "name": "smart-contract-toml"
+    },
+    {
+      "count": 1,
+      "name": "sparky-toml"
+    },
+    {
+      "count": 1,
+      "name": "tester-toml"
+    },
+    {
+      "count": 1,
+      "name": "worker-high-toml"
+    },
+    {
+      "count": 1,
+      "name": "worker-medium-toml"
+    },
+    {
+      "count": 1,
+      "name": "worker-mini-toml"
+    },
+    {
+      "count": 1,
+      "name": "worker-spark-high-toml"
+    },
+    {
+      "count": 1,
+      "name": "worker-spark-xhigh-toml"
+    },
+    {
+      "count": 1,
+      "name": "worker-xhigh-toml"
+    },
+    {
+      "count": 1,
+      "name": "agent-browser"
+    },
+    {
+      "count": 1,
+      "name": "brand-guidelines"
+    },
+    {
+      "count": 1,
+      "name": "canvas-design"
+    },
+    {
+      "count": 1,
+      "name": "changelog-generator"
+    },
+    {
+      "count": 1,
+      "name": "competitive-ads-extractor"
+    },
+    {
+      "count": 1,
+      "name": "connect"
+    },
+    {
+      "count": 1,
+      "name": "connect-apps"
+    },
+    {
+      "count": 1,
+      "name": "content-research-writer"
+    },
+    {
+      "count": 1,
+      "name": "context7"
+    },
+    {
+      "count": 1,
+      "name": "create-plan"
+    },
+    {
+      "count": 1,
+      "name": "developer-growth-analysis"
+    },
+    {
+      "count": 1,
+      "name": "domain-name-brainstormer"
+    },
+    {
+      "count": 1,
+      "name": "email-draft-polish"
+    },
+    {
+      "count": 1,
+      "name": "file-organizer"
+    },
+    {
+      "count": 1,
+      "name": "frontend-design"
+    },
+    {
+      "count": 1,
+      "name": "frontend-responsive-ui"
+    },
+    {
+      "count": 1,
+      "name": "gemini-computer-use"
+    },
+    {
+      "count": 1,
+      "name": "gh-address-comments"
+    },
+    {
+      "count": 1,
+      "name": "gh-fix-ci"
+    },
+    {
+      "count": 1,
+      "name": "image-enhancer"
+    },
+    {
+      "count": 1,
+      "name": "internal-comms"
+    },
+    {
+      "count": 1,
+      "name": "invoice-organizer"
+    },
+    {
+      "count": 1,
+      "name": "langsmith-fetch"
+    },
+    {
+      "count": 1,
+      "name": "lead-research-assistant"
+    },
+    {
+      "count": 1,
+      "name": "linear"
+    },
+    {
+      "count": 1,
+      "name": "markdown-url"
+    },
+    {
+      "count": 1,
+      "name": "mcp-builder"
+    },
+    {
+      "count": 1,
+      "name": "meeting-insights-analyzer"
+    },
+    {
+      "count": 1,
+      "name": "meeting-notes-and-actions"
+    },
+    {
+      "count": 1,
+      "name": "notion-knowledge-capture"
+    },
+    {
+      "count": 1,
+      "name": "notion-meeting-intelligence"
+    },
+    {
+      "count": 1,
+      "name": "notion-research-documentation"
+    },
+    {
+      "count": 1,
+      "name": "notion-spec-to-implementation"
+    },
+    {
+      "count": 1,
+      "name": "openai-docs-skill"
+    },
+    {
+      "count": 1,
+      "name": "parallel"
+    },
+    {
+      "count": 1,
+      "name": "parallel-task"
+    },
+    {
+      "count": 1,
+      "name": "parallel-task-spark"
+    },
+    {
+      "count": 1,
+      "name": "plan-harder"
+    },
+    {
+      "count": 1,
+      "name": "planner"
+    },
+    {
+      "count": 1,
+      "name": "raffle-winner-picker"
+    },
+    {
+      "count": 1,
+      "name": "read-github"
+    },
+    {
+      "count": 1,
+      "name": "role-creator"
+    },
+    {
+      "count": 1,
+      "name": "skill-creator"
+    },
+    {
+      "count": 1,
+      "name": "skill-installer"
+    },
+    {
+      "count": 1,
+      "name": "skill-share"
+    },
+    {
+      "count": 1,
+      "name": "slack-gif-creator"
+    },
+    {
+      "count": 1,
+      "name": "spreadsheet-formula-helper"
+    },
+    {
+      "count": 1,
+      "name": "super-swarm-spark"
+    },
+    {
+      "count": 1,
+      "name": "support-ticket-triage"
+    },
+    {
+      "count": 1,
+      "name": "swarm-planner"
+    },
+    {
+      "count": 1,
+      "name": "tailored-resume-generator"
+    },
+    {
+      "count": 1,
+      "name": "template-skill"
+    },
+    {
+      "count": 1,
+      "name": "theme-factory"
+    },
+    {
+      "count": 1,
+      "name": "vercel-react-best-practices"
+    },
+    {
+      "count": 1,
+      "name": "webapp-testing"
+    },
+    {
+      "count": 1,
+      "name": "video-downloader"
+    },
+    {
+      "count": 1,
+      "name": "coordination"
+    },
+    {
+      "count": 1,
+      "name": "strategy"
+    },
+    {
+      "count": 1,
+      "name": "codex-plan-md"
+    },
+    {
+      "count": 1,
+      "name": "design"
+    },
+    {
+      "count": 1,
+      "name": "design-image-prompt-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "parallel-task-md"
+    },
+    {
+      "count": 1,
+      "name": "planner-md"
+    },
+    {
+      "count": 1,
+      "name": "readme-md"
+    }
+  ],
+  "languages": [
+    {
+      "count": 113,
+      "name": "sql"
+    },
+    {
+      "count": 88,
+      "name": "c"
+    },
+    {
+      "count": 76,
+      "name": "javascript"
+    },
+    {
+      "count": 42,
+      "name": "python"
+    },
+    {
+      "count": 33,
+      "name": "typescript"
+    },
+    {
+      "count": 28,
+      "name": "swift"
+    },
+    {
+      "count": 27,
+      "name": "react"
+    },
+    {
+      "count": 18,
+      "name": "java"
+    },
+    {
+      "count": 18,
+      "name": "php"
+    },
+    {
+      "count": 13,
+      "name": "csharp"
+    },
+    {
+      "count": 11,
+      "name": "ruby"
+    },
+    {
+      "count": 9,
+      "name": "rust"
+    },
+    {
+      "count": 9,
+      "name": "vue"
+    },
+    {
+      "count": 6,
+      "name": "elixir"
+    },
+    {
+      "count": 6,
+      "name": "powershell"
+    },
+    {
+      "count": 5,
+      "name": "kotlin"
+    },
+    {
+      "count": 4,
+      "name": "cpp"
+    },
+    {
+      "count": 3,
+      "name": "angular"
+    },
+    {
+      "count": 3,
+      "name": "go"
+    },
+    {
+      "count": 2,
+      "name": "scala"
+    },
+    {
+      "count": 1,
+      "name": "clojure"
+    }
+  ],
+  "roles": [
+    {
+      "count": 370,
+      "name": "expert"
+    },
+    {
+      "count": 231,
+      "name": "architect"
+    },
+    {
+      "count": 118,
+      "name": "engineer"
+    },
+    {
+      "count": 89,
+      "name": "developer"
+    },
+    {
+      "count": 77,
+      "name": "specialist"
+    },
+    {
+      "count": 24,
+      "name": "manager"
+    },
+    {
+      "count": 20,
+      "name": "admin"
+    },
+    {
+      "count": 17,
+      "name": "orchestrator"
+    },
+    {
+      "count": 16,
+      "name": "reviewer"
+    },
+    {
+      "count": 16,
+      "name": "analyst"
+    },
+    {
+      "count": 14,
+      "name": "auditor"
+    },
+    {
+      "count": 9,
+      "name": "designer"
+    },
+    {
+      "count": 8,
+      "name": "writer"
+    },
+    {
+      "count": 5,
+      "name": "tester"
+    },
+    {
+      "count": 5,
+      "name": "coordinator"
+    },
+    {
+      "count": 2,
+      "name": "administrator"
+    }
+  ],
+  "systems": [
+    {
+      "count": 66,
+      "name": "github"
+    },
+    {
+      "count": 56,
+      "name": "docker"
+    },
+    {
+      "count": 46,
+      "name": "git"
+    },
+    {
+      "count": 33,
+      "name": "kubernetes"
+    },
+    {
+      "count": 32,
+      "name": "mcp"
+    },
+    {
+      "count": 25,
+      "name": "aws"
+    },
+    {
+      "count": 24,
+      "name": "ios"
+    },
+    {
+      "count": 23,
+      "name": "azure"
+    },
+    {
+      "count": 16,
+      "name": "gcp"
+    },
+    {
+      "count": 16,
+      "name": "redis"
+    },
+    {
+      "count": 13,
+      "name": "windows"
+    },
+    {
+      "count": 10,
+      "name": "slack"
+    },
+    {
+      "count": 9,
+      "name": "terraform"
+    },
+    {
+      "count": 7,
+      "name": "linux"
+    },
+    {
+      "count": 7,
+      "name": "postgres"
+    },
+    {
+      "count": 6,
+      "name": "notion"
+    },
+    {
+      "count": 3,
+      "name": "linear"
+    }
+  ]
+}

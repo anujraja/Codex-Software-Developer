@@ -1,0 +1,19 @@
+sources:
+  - owner: am-will
+    repo: codex-skills
+    branch: main
+  - owner: proflead
+    repo: codex-skills-library
+    branch: master
+  - owner: VoltAgent
+    repo: awesome-codex-subagents
+    branch: main
+  - owner: Dimillian
+    repo: Skills
+    branch: main
+  - owner: ComposioHQ
+    repo: awesome-codex-skills
+    branch: master
+  - owner: msitarzewski
+    repo: agency-agents
+    branch: main

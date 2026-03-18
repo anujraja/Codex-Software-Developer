@@ -1,0 +1,138 @@
+# Canonical Skill: swift-concurrency-expert
+
+Generated at: `2026-03-18T08:03:51+00:00`
+Translation status: `english`
+Canonical ID: `skill--swift-concurrency-expert`
+
+## Summary
+Swift Concurrency review and remediation for Swift 6.2+. Use when asked to review Swift Concurrency usage, improve concurrency compliance, or fix Swift concurrency compiler errors in a feature or file. Concrete actions include adding Sendable conformance, applying @MainActor annotations, resolving actor isolation warnings, fixing data race diagnostics, and migrating completion handlers to async/await.
+
+## Provenance
+- `Dimillian/Skills` `main` `swift-concurrency-expert/SKILL.md` ([raw](https://raw.githubusercontent.com/Dimillian/Skills/main/swift-concurrency-expert/SKILL.md))
+
+## Metadata
+- Tags: `skill, skill-md, swift-concurrency-expert`
+- Languages: `swift`
+- Systems: `github`
+- Jobs: `skill-md, swift-concurrency-expert`
+- Roles: `expert`
+
+## Steps
+1. **Background work**: move expensive work into a `@concurrent` async function on a `nonisolated` type or use an `actor` to guard mutable state.
+2. **Global/static state**: protect with `@MainActor` or move into an actor.
+3. **Protocol conformance on main actor types**: make the conformance isolated (e.g., `extension Foo: @MainActor SomeProtocol`).
+4. **Sendable errors**: prefer immutable/value types; add `Sendable` conformance only when correct; avoid `@unchecked Sendable` unless you can prove thread safety.
+5. **UI-bound types**: annotate the type or relevant members with `@MainActor`.
+6. Capture the exact compiler diagnostics and the offending symbol(s).
+7. Check project concurrency settings: Swift language version (6.2+), strict concurrency level, and whether approachable concurrency (default actor isolation / main-actor-by-default) is enabled.
+8. Confirm whether the code is UI-bound or intended to run off the main actor.
+9. Identify the current actor context (`@MainActor`, `actor`, `nonisolated`) and whether a default actor isolation mode is enabled.
+10. If the fix surfaces new warnings, treat each one as a fresh triage (return to step 1) and resolve iteratively until the build is clean and tests pass.
+11. Rebuild and confirm all concurrency diagnostics are resolved with no new warnings introduced.
+12. Run the test suite to check for regressions — concurrency changes can introduce subtle runtime issues even when the build is clean.
+13. See `references/approachable-concurrency.md` when the project is opted into approachable concurrency mode.
+14. See `references/swift-6-2-concurrency.md` for Swift 6.2 changes, patterns, and examples.
+15. See `references/swiftui-concurrency-tour-wwdc.md` for SwiftUI-specific concurrency guidance.
+
+## Instructions
+Source: Dimillian/Skills (main) :: swift-concurrency-expert/SKILL.md
+# Swift Concurrency Expert
+
+## Overview
+
+Review and fix Swift Concurrency issues in Swift 6.2+ codebases by applying actor isolation, Sendable safety, and modern concurrency patterns with minimal behavior changes.
+
+## Workflow
+
+### 1. Triage the issue
+
+- Capture the exact compiler diagnostics and the offending symbol(s).
+- Check project concurrency settings: Swift language version (6.2+), strict concurrency level, and whether approachable concurrency (default actor isolation / main-actor-by-default) is enabled.
+- Identify the current actor context (`@MainActor`, `actor`, `nonisolated`) and whether a default actor isolation mode is enabled.
+- Confirm whether the code is UI-bound or intended to run off the main actor.
+
+### 2. Apply the smallest safe fix
+
+Prefer edits that preserve existing behavior while satisfying data-race safety.
+
+Common fixes:
+- **UI-bound types**: annotate the type or relevant members with `@MainActor`.
+- **Protocol conformance on main actor types**: make the conformance isolated (e.g., `extension Foo: @MainActor SomeProtocol`).
+- **Global/static state**: protect with `@MainActor` or move into an actor.
+- **Background work**: move expensive work into a `@concurrent` async function on a `nonisolated` type or use an `actor` to guard mutable state.
+- **Sendable errors**: prefer immutable/value types; add `Sendable` conformance only when correct; avoid `@unchecked Sendable` unless you can prove thread safety.
+
+### 3. Verify the fix
+
+- Rebuild and confirm all concurrency diagnostics are resolved with no new warnings introduced.
+- Run the test suite to check for regressions — concurrency changes can introduce subtle runtime issues even when the build is clean.
+- If the fix surfaces new warnings, treat each one as a fresh triage (return to step 1) and resolve iteratively until the build is clean and tests pass.
+
+### Examples
+
+**UI-bound type — adding `@MainActor`**
+
+```swift
+// Before: data-race warning because ViewModel is accessed from the main thread
+// but has no actor isolation
+class ViewModel: ObservableObject {
+    @Published var title: String = ""
+    func load() { title = "Loaded" }
+}
+
+// After: annotate the whole type so all stored state and methods are
+// automatically isolated to the main actor
+@MainActor
+class ViewModel: ObservableObject {
+    @Published var title: String = ""
+    func load() { title = "Loaded" }
+}
+```
+
+**Protocol conformance isolation**
+
+```swift
+// Before: compiler error — SomeProtocol method is nonisolated but the
+// conforming type is @MainActor
+@MainActor
+class Foo: SomeProtocol {
+    func protocolMethod() { /* accesses main-actor state */ }
+}
+
+// After: scope the conformance to @MainActor so the requirement is
+// satisfied inside the correct isolation context
+@MainActor
+extension Foo: SomeProtocol {
+    func protocolMethod() { /* safely accesses main-actor state */ }
+}
+```
+
+**Background work with `@concurrent`**
+
+```swift
+// Before: expensive computation blocks the main actor
+@MainActor
+func processData(_ input: [Int]) -> [Int] {
+    input.map { heavyTransform($0) }   // runs on main thread
+}
+
+// After: hop off the main actor for the heavy work, then return the result
+// The caller awaits the result and stays on its own actor
+nonisolated func processData(_ input: [Int]) async -> [Int] {
+    await Task.detached(priority: .userInitiated) {
+        input.map { heavyTransform($0) }
+    }.value
+}
+
+// Or, using a @concurrent async function (Swift 6.2+):
+@concurrent
+func processData(_ input: [Int]) async -> [Int] {
+    input.map { heavyTransform($0) }
+}
+```
+
+## Reference material
+
+- See `references/swift-6-2-concurrency.md` for Swift 6.2 changes, patterns, and examples.
+- See `references/approachable-concurrency.md` when the project is opted into approachable concurrency mode.
+- See `references/swiftui-concurrency-tour-wwdc.md` for SwiftUI-specific concurrency guidance.
