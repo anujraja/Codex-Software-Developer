@@ -99,4 +99,6 @@ Obsidian-Helper.md      # vault-first relationship guide
 - [Agent Role Language System Matrix](docs/agent-role-language-system-matrix.md)
 - [Prompt Library](docs/prompt-library.md)
 - [Developer Guide](docs/developer-guide.md)
+- [Get All Agents And Skills Locally](docs/getting-all-assets-locally.md)
+- [End To End Setup](docs/how-to-codex-helper-end-to-end.md)
 - [Obsidian Helper](Obsidian-Helper.md)

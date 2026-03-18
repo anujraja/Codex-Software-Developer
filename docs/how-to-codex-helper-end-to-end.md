@@ -44,6 +44,7 @@ cd Codex-Software-Developer
 Recommended:
 
 ```bash
+# installs canonical catalog + custom overlay assets
 ./scripts/install_codex_helper.sh
 ```
 
@@ -52,6 +53,12 @@ Optional:
 ```bash
 # include reusable global guidance in ~/.codex/AGENTS.md
 ./scripts/install_codex_helper.sh --with-global-guidance
+
+# only custom overlay assets
+./scripts/install_codex_helper.sh --custom-only
+
+# only canonical catalog assets
+./scripts/install_codex_helper.sh --catalog-only
 
 # overwrite matching assets, with backup
 ./scripts/install_codex_helper.sh --force

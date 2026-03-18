@@ -19,4 +19,12 @@
 
 - Use non-destructive changes by default.
 - Always summarize changed files and verification steps.
+
+### Selection Policy
+
+- Proactively choose the best-matching skill before implementation when a clear fit exists.
+- Prefer installed skills from `~/.codex/skills/` and `~/.agents/skills/` based on task boundaries.
+- For docs/source validation, prefer `docs_researcher`; for bounded implementation, prefer `implementation_worker`; for risk reviews, prefer `reviewer`.
+- Use `explorer` first for unfamiliar codebases before making edits.
+- If multiple skills/agents apply, use the smallest effective set in sequence.
 <!-- CODEX-HELPER END -->

@@ -5,7 +5,7 @@ Use this file when a user gives this repository URL and asks:
 
 ## Goal
 
-Install this repo's custom agents and skills into the user's local Codex setup safely and predictably.
+Install this repo's full agents and skills into the user's local Codex setup safely and predictably.
 
 ## Default behavior (important)
 
@@ -33,7 +33,7 @@ Install this repo's custom agents and skills into the user's local Codex setup s
 Use repository root as working directory.
 
 ```bash
-# 1) safe install (recommended default)
+# 1) safe install (recommended default: catalog + custom overlay)
 ./scripts/install_codex_helper.sh
 
 # 2) verify
@@ -48,13 +48,19 @@ fi
 ls "$CODEX_HOME/agents"
 ls "$RESOLVED_SKILL_TARGET_DIR"
 
-# 3) optional: include global guidance in ~/.codex/AGENTS.md
+# 3) optional: include/refresh global guidance in ~/.codex/AGENTS.md
 ./scripts/install_codex_helper.sh --with-global-guidance
 
-# 4) optional: overwrite existing installed assets (only with explicit user confirmation)
+# 4) optional: only install custom overlay assets
+./scripts/install_codex_helper.sh --custom-only
+
+# 5) optional: only install canonical catalog assets
+./scripts/install_codex_helper.sh --catalog-only
+
+# 6) optional: overwrite existing installed assets (only with explicit user confirmation)
 ./scripts/install_codex_helper.sh --force
 
-# 5) optional: symlink mode for active development
+# 7) optional: symlink mode for active development (catalog + custom)
 ./scripts/link_codex_helper.sh
 ```
 
@@ -86,6 +92,7 @@ Always provide:
 
 ```bash
 ./scripts/install_codex_helper.sh --dry-run
+./scripts/link_codex_helper.sh --dry-run
 echo "${CODEX_HOME:-$HOME/.codex}"
 test -d "${CODEX_HOME:-$HOME/.codex}/skills" && echo "codex skills path exists"
 test -d "${HOME}/.agents/skills" && echo "agents skills path exists"

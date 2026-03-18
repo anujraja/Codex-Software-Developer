@@ -365,8 +365,8 @@ def build_readme(
             "| `scripts/validate_repo.py` | Runs integrity checks across indexes, outputs, and links. |",
             "| `scripts/refresh_obsidian_inventory.sh` | Refreshes Obsidian markdown inventory. |",
             "| `scripts/export_obsidian_bundle.sh` | Copies `for_obsidian/` into a target vault folder. |",
-            "| `scripts/install_codex_helper.sh` | Installs local agent and skill assets for Codex usage. |",
-            "| `scripts/link_codex_helper.sh` | Symlink-based install mode for local development. |",
+            "| `scripts/install_codex_helper.sh` | Installs canonical + custom agent and skill assets for Codex usage. |",
+            "| `scripts/link_codex_helper.sh` | Symlink mode for canonical + custom assets for local development. |",
             "",
             "## How To Use This Repo (Diagram)",
             "```mermaid",
@@ -402,6 +402,8 @@ def build_readme(
             "- [Agent Role Language System Matrix](docs/agent-role-language-system-matrix.md)",
             "- [Prompt Library](docs/prompt-library.md)",
             "- [Developer Guide](docs/developer-guide.md)",
+            "- [Get All Agents And Skills Locally](docs/getting-all-assets-locally.md)",
+            "- [End To End Setup](docs/how-to-codex-helper-end-to-end.md)",
             "- [Obsidian Helper](Obsidian-Helper.md)",
         ]
     )

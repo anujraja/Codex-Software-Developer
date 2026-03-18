@@ -10,6 +10,13 @@ From this repo root:
 ./scripts/install_codex_helper.sh
 ```
 
+Default install behavior:
+- installs canonical catalog agents from `knowledge/agents/*.toml`
+- installs canonical catalog skills from `knowledge/skills/*.md` into `SKILL.md` wrappers
+- installs custom overlay agents from `.codex/agents/*.toml`
+- installs custom overlay skills from `.agents/skills/*`
+- custom overlay wins on name collisions
+
 Skill target default behavior:
 - if `~/.codex/skills` already exists, scripts install/link skills there
 - otherwise scripts use `~/.agents/skills` (official Codex docs user-level skills path)
@@ -21,8 +28,14 @@ Optional flags:
 # overwrite existing matching assets (after backup)
 ./scripts/install_codex_helper.sh --force
 
-# append global guidance block into ~/.codex/AGENTS.md
+# create/update global guidance block in ~/.codex/AGENTS.md
 ./scripts/install_codex_helper.sh --with-global-guidance
+
+# install only custom overlay assets
+./scripts/install_codex_helper.sh --custom-only
+
+# install only canonical catalog assets
+./scripts/install_codex_helper.sh --catalog-only
 
 # preview operations without writing
 ./scripts/install_codex_helper.sh --dry-run
@@ -30,11 +43,31 @@ Optional flags:
 
 ## Symlink method (power users)
 
-Use symlinks so updates in this repo immediately reflect in local Codex paths:
+Use symlinks so updates in this repo reflect in local Codex paths:
 
 ```bash
 ./scripts/link_codex_helper.sh
 ```
+
+Optional flags:
+
+```bash
+# force replace existing targets
+./scripts/link_codex_helper.sh --force
+
+# only custom overlay assets
+./scripts/link_codex_helper.sh --custom-only
+
+# only canonical catalog assets
+./scripts/link_codex_helper.sh --catalog-only
+
+# preview without writing
+./scripts/link_codex_helper.sh --dry-run
+```
+
+Notes:
+- catalog skills are linked via generated wrappers under `~/.codex/tmp/codex-helper-skill-link-cache`
+- custom skills stay as direct symlinks to `.agents/skills/*`
 
 ## Obsidian bundle export
 
@@ -67,10 +100,11 @@ mkdir -p "$CODEX_HOME/agents"
 mkdir -p "$RESOLVED_SKILL_TARGET_DIR"
 ```
 
-3. Copy custom agents:
+3. Copy agents:
 
 ```bash
 cp .codex/agents/*.toml "$CODEX_HOME/agents/"
+cp knowledge/agents/*.toml "$CODEX_HOME/agents/"
 ```
 
 4. Copy custom skills:
@@ -79,13 +113,34 @@ cp .codex/agents/*.toml "$CODEX_HOME/agents/"
 cp -R .agents/skills/* "$RESOLVED_SKILL_TARGET_DIR/"
 ```
 
-5. Copy config template:
+5. Convert canonical skill markdown into Codex `SKILL.md` folders:
+
+```bash
+for src in knowledge/skills/*.md; do
+  skill_name="$(basename "$src" .md)"
+  dst_dir="$RESOLVED_SKILL_TARGET_DIR/$skill_name"
+  mkdir -p "$dst_dir"
+  summary="$(awk '/^## Summary/{getline; print; exit}' "$src")"
+  [ -z "$summary" ] && summary="Imported canonical skill from Codex Helper knowledge catalog."
+  {
+    printf -- '---\n'
+    printf 'name: %s\n' "$skill_name"
+    printf 'description: >-\n'
+    printf '  %s\n' "$summary"
+    printf -- '---\n\n'
+    cat "$src"
+    printf '\n'
+  } > "$dst_dir/SKILL.md"
+done
+```
+
+6. Copy config template:
 
 ```bash
 cp .codex/config.toml "$CODEX_HOME/config.codex-helper.example.toml"
 ```
 
-6. Optional: append global guidance block from `templates/global-AGENTS.md` into `~/.codex/AGENTS.md`.
+7. Optional: create or refresh the guidance block from `templates/global-AGENTS.md` into `~/.codex/AGENTS.md`.
 
 ## Verify installation
 
@@ -98,4 +153,4 @@ codex --version
 ## Notes
 
 - Existing files are backed up before overwrite operations when using `--force`.
-- `--with-global-guidance` appends a marked block so it can be removed cleanly later.
+- `--with-global-guidance` creates or refreshes the marked block so routing guidance stays current.
