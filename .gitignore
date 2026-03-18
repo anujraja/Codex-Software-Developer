@@ -5,3 +5,8 @@ __pycache__/
 .venv/
 .pytest_cache/
 /tmp/
+# fetched source artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/sources/*
+!data/sources/.gitkeep
