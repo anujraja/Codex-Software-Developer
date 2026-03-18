@@ -119,6 +119,51 @@ def parse_agent(source: dict[str, str], rel_path: str, text: str) -> dict:
     )
 
 
+def parse_markdown_agent(source: dict[str, str], rel_path: str, text: str) -> dict:
+    stem = Path(rel_path).stem
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+
+    heading = ""
+    for line in lines:
+        if line.startswith("#"):
+            heading = line.lstrip("#").strip()
+            break
+
+    name = heading or stem
+    summary = ""
+    for line in lines:
+        if line.startswith("#"):
+            continue
+        summary = line
+        break
+
+    if not summary:
+        summary = short_summary(text, 240)
+
+    jobs = detect_jobs(rel_path)
+    tags = jobs + [Path(rel_path).parent.name, "markdown-agent"]
+
+    return make_entity(
+        entity_type="agent",
+        name=name,
+        summary=summary,
+        instructions=text.strip() or summary,
+        tags=tags,
+        languages=detect_languages(rel_path, text),
+        systems=detect_systems(rel_path, text),
+        jobs=jobs,
+        roles=detect_roles(name, text),
+        steps=extract_steps(text),
+        refs=[source_ref(source, rel_path)],
+        extra={
+            "model": "",
+            "model_reasoning_effort": "",
+            "sandbox_mode": "",
+            "category": rel_path.split("/")[0] if "/" in rel_path else "root",
+        },
+    )
+
+
 def parse_skill(source: dict[str, str], rel_path: str, text: str) -> dict:
     frontmatter, body = extract_frontmatter(text)
     folder_name = Path(rel_path).parent.name
@@ -208,6 +253,29 @@ def parse_openai_yaml_prompt(source: dict[str, str], rel_path: str, text: str) -
 def is_agent_path(rel_path: str) -> bool:
     lower = rel_path.lower()
     return lower.endswith(".toml") and (lower.startswith("agents/") or lower.startswith("categories/"))
+
+
+def is_markdown_agent_path(source: dict[str, str], rel_path: str) -> bool:
+    lower = rel_path.lower()
+    if not lower.endswith(".md"):
+        return False
+    if lower.endswith("skill.md"):
+        return False
+
+    repo_id = source_repo_id(source).lower()
+    if repo_id != "msitarzewski/agency-agents":
+        return False
+
+    name = Path(rel_path).name.lower()
+    if name in {"readme.md", "executive-brief.md", "quickstart.md"}:
+        return False
+
+    top = rel_path.split("/", 1)[0].lower()
+    excluded_top = {"examples", "strategy", "integrations", "scripts"}
+    if top in excluded_top:
+        return False
+
+    return True
 
 
 def is_skill_path(rel_path: str) -> bool:
@@ -322,6 +390,8 @@ def run() -> None:
 
             if is_agent_path(rel_path):
                 agents.append(parse_agent(source, rel_path, text))
+            if is_markdown_agent_path(source, rel_path):
+                agents.append(parse_markdown_agent(source, rel_path, text))
             if is_skill_path(rel_path):
                 skills.append(parse_skill(source, rel_path, text))
             if is_prompt_path(rel_path):

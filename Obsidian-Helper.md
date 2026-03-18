@@ -2,7 +2,7 @@
 
 Primary relationship map for using this repository inside an Obsidian vault.
 
-Generated at: `2026-03-18T08:03:56+00:00`
+Generated at: `2026-03-18T08:06:29+00:00`
 
 ## Folder Graph
 ```mermaid
@@ -33,7 +33,7 @@ graph TD
 | `knowledge/prompts/` | canonical catalogs | Canonical prompt references. |
 
 ## Entry Points
-- Agents: `473` canonical files in `knowledge/agents/`
+- Agents: `627` canonical files in `knowledge/agents/`
 - Skills: `130` canonical files in `knowledge/skills/`
 - Prompts: `20` canonical files in `knowledge/prompts/`
 

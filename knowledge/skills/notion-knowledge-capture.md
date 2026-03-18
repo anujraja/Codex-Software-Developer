@@ -1,6 +1,6 @@
 # Canonical Skill: notion-knowledge-capture
 
-Generated at: `2026-03-18T08:03:51+00:00`
+Generated at: `2026-03-18T08:06:29+00:00`
 Translation status: `english`
 Canonical ID: `skill--notion-knowledge-capture`
 

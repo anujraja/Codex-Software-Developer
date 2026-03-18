@@ -575,13 +575,28 @@
               "source_repo": "am-will/codex-skills"
             }
           ]
+        },
+        {
+          "id": "agent--database-optimizer--msitarzewski-agency-agents",
+          "model": "",
+          "model_reasoning_effort": "",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-database-optimizer.md",
+              "source_branch": "main",
+              "source_path": "engineering/engineering-database-optimizer.md",
+              "source_repo": "msitarzewski/agency-agents"
+            }
+          ]
         }
       ],
       "name": "database-optimizer",
-      "repo_count": 2,
+      "repo_count": 3,
       "source_repos": [
         "VoltAgent/awesome-codex-subagents",
-        "am-will/codex-skills"
+        "am-will/codex-skills",
+        "msitarzewski/agency-agents"
       ]
     },
     {
@@ -1967,6 +1982,6 @@
       ]
     }
   ],
-  "generated_at_utc": "2026-03-18T08:03:37+00:00",
+  "generated_at_utc": "2026-03-18T08:06:27+00:00",
   "total_duplicate_names": 51
 }

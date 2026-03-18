@@ -19,14 +19,14 @@ Canonical, English-first, reproducible knowledge base for Codex agents, subagent
 ## Current Snapshot
 - Indexed source files: **1280**
 - Indexed binary assets: **57** (indexed only, not copied)
-- Canonical agents: **473**
+- Canonical agents: **627**
 - Canonical skills: **130**
 - Canonical prompts: **20**
 - Cross-repo duplicate agent names merged: **51**
 
 ## Taxonomy Highlights
-- Top roles: expert, architect, engineer, developer, specialist, manager, admin, orchestrator
-- Top languages: sql, c, javascript, python, typescript, swift, react, java
+- Top roles: expert, architect, specialist, engineer, developer, manager, analyst, admin
+- Top languages: c, sql, javascript, python, typescript, swift, react, java
 
 ## Repository Layout
 ```text

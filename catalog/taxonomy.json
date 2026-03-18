@@ -13,6 +13,58 @@
       "name": "skills"
     },
     {
+      "count": 27,
+      "name": "specialized"
+    },
+    {
+      "count": 27,
+      "name": "marketing"
+    },
+    {
+      "count": 23,
+      "name": "engineering"
+    },
+    {
+      "count": 20,
+      "name": "game-development"
+    },
+    {
+      "count": 9,
+      "name": "design"
+    },
+    {
+      "count": 8,
+      "name": "testing"
+    },
+    {
+      "count": 8,
+      "name": "sales"
+    },
+    {
+      "count": 7,
+      "name": "paid-media"
+    },
+    {
+      "count": 6,
+      "name": "support"
+    },
+    {
+      "count": 6,
+      "name": "project-management"
+    },
+    {
+      "count": 6,
+      "name": "spatial-computing"
+    },
+    {
+      "count": 5,
+      "name": "academic"
+    },
+    {
+      "count": 5,
+      "name": "product"
+    },
+    {
       "count": 4,
       "name": "prompts"
     },
@@ -63,6 +115,14 @@
     {
       "count": 2,
       "name": "swiftui-view-refactor"
+    },
+    {
+      "count": 1,
+      "name": "root"
+    },
+    {
+      "count": 1,
+      "name": ".github"
     },
     {
       "count": 1,
@@ -223,19 +283,15 @@
     {
       "count": 1,
       "name": "strategy"
-    },
-    {
-      "count": 1,
-      "name": "design"
     }
   ],
   "counts": {
-    "agents": 535,
+    "agents": 693,
     "prompts": 21,
     "skills": 130,
-    "total_entities": 686
+    "total_entities": 844
   },
-  "generated_at_utc": "2026-03-18T08:03:37+00:00",
+  "generated_at_utc": "2026-03-18T08:06:27+00:00",
   "jobs": [
     {
       "count": 412,
@@ -267,7 +323,15 @@
     },
     {
       "count": 27,
+      "name": "specialized"
+    },
+    {
+      "count": 27,
       "name": "backend-api"
+    },
+    {
+      "count": 27,
+      "name": "marketing"
     },
     {
       "count": 26,
@@ -278,8 +342,16 @@
       "name": "02-language-specialists"
     },
     {
+      "count": 23,
+      "name": "engineering"
+    },
+    {
       "count": 22,
       "name": "data-ai-ml"
+    },
+    {
+      "count": 20,
+      "name": "game-development"
     },
     {
       "count": 17,
@@ -323,6 +395,10 @@
     },
     {
       "count": 11,
+      "name": "testing"
+    },
+    {
+      "count": 11,
       "name": "08-business-product"
     },
     {
@@ -335,7 +411,15 @@
     },
     {
       "count": 9,
+      "name": "design"
+    },
+    {
+      "count": 9,
       "name": "testing-quality"
+    },
+    {
+      "count": 8,
+      "name": "sales"
     },
     {
       "count": 8,
@@ -351,15 +435,47 @@
     },
     {
       "count": 7,
+      "name": "paid-media"
+    },
+    {
+      "count": 7,
       "name": "infra"
+    },
+    {
+      "count": 6,
+      "name": "support"
     },
     {
       "count": 6,
       "name": "teams"
     },
     {
+      "count": 6,
+      "name": "project-management"
+    },
+    {
+      "count": 6,
+      "name": "spatial-computing"
+    },
+    {
       "count": 5,
       "name": "mobile"
+    },
+    {
+      "count": 5,
+      "name": "academic"
+    },
+    {
+      "count": 5,
+      "name": "product"
+    },
+    {
+      "count": 4,
+      "name": "unity"
+    },
+    {
+      "count": 4,
+      "name": "unreal-engine"
     },
     {
       "count": 4,
@@ -387,11 +503,19 @@
     },
     {
       "count": 3,
-      "name": "frontend"
+      "name": "godot"
     },
     {
       "count": 3,
-      "name": "testing"
+      "name": "roblox-studio"
+    },
+    {
+      "count": 3,
+      "name": "github"
+    },
+    {
+      "count": 3,
+      "name": "frontend"
     },
     {
       "count": 3,
@@ -403,15 +527,15 @@
     },
     {
       "count": 2,
+      "name": "design-image-prompt-engineer-md"
+    },
+    {
+      "count": 2,
       "name": "app-store-changelog"
     },
     {
       "count": 2,
       "name": "architecture"
-    },
-    {
-      "count": 2,
-      "name": "github"
     },
     {
       "count": 2,
@@ -459,7 +583,23 @@
     },
     {
       "count": 1,
+      "name": "testing-accessibility-auditor-md"
+    },
+    {
+      "count": 1,
       "name": "accessibility-wcag-auditor-toml"
+    },
+    {
+      "count": 1,
+      "name": "sales-account-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "accounts-payable-agent-md"
+    },
+    {
+      "count": 1,
+      "name": "agentic-identity-trust-md"
     },
     {
       "count": 1,
@@ -467,7 +607,35 @@
     },
     {
       "count": 1,
+      "name": "agents-orchestrator-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-ai-data-remediation-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-ai-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "support-analytics-reporter-md"
+    },
+    {
+      "count": 1,
+      "name": "academic-anthropologist-md"
+    },
+    {
+      "count": 1,
       "name": "api-designer-toml"
+    },
+    {
+      "count": 1,
+      "name": "testing-api-tester-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-app-store-optimizer-md"
     },
     {
       "count": 1,
@@ -475,7 +643,51 @@
     },
     {
       "count": 1,
+      "name": "design-ux-architect-md"
+    },
+    {
+      "count": 1,
+      "name": "automation-governance-architect-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-autonomous-optimization-architect-md"
+    },
+    {
+      "count": 1,
       "name": "backend-toml"
+    },
+    {
+      "count": 1,
+      "name": "engineering-backend-architect-md"
+    },
+    {
+      "count": 1,
+      "name": "product-behavioral-nudge-engine-md"
+    },
+    {
+      "count": 1,
+      "name": "blender"
+    },
+    {
+      "count": 1,
+      "name": "blockchain-security-auditor-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-book-co-author-md"
+    },
+    {
+      "count": 1,
+      "name": "design-brand-guardian-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-code-reviewer-md"
+    },
+    {
+      "count": 1,
+      "name": "compliance-auditor-md"
     },
     {
       "count": 1,
@@ -483,7 +695,35 @@
     },
     {
       "count": 1,
+      "name": "contributing-md"
+    },
+    {
+      "count": 1,
+      "name": "corporate-training-designer-md"
+    },
+    {
+      "count": 1,
+      "name": "specialized-cultural-intelligence-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "data-consolidation-agent-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-data-engineer-md"
+    },
+    {
+      "count": 1,
       "name": "data-pipeline-toml"
+    },
+    {
+      "count": 1,
+      "name": "engineering-database-optimizer-md"
+    },
+    {
+      "count": 1,
+      "name": "sales-deal-strategist-md"
     },
     {
       "count": 1,
@@ -491,7 +731,27 @@
     },
     {
       "count": 1,
+      "name": "specialized-developer-advocate-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-senior-developer-md"
+    },
+    {
+      "count": 1,
       "name": "devops-toml"
+    },
+    {
+      "count": 1,
+      "name": "engineering-devops-automator-md"
+    },
+    {
+      "count": 1,
+      "name": "sales-discovery-coach-md"
+    },
+    {
+      "count": 1,
+      "name": "specialized-document-generator-md"
     },
     {
       "count": 1,
@@ -499,11 +759,199 @@
     },
     {
       "count": 1,
+      "name": "engineering-embedded-firmware-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "support-executive-summary-generator-md"
+    },
+    {
+      "count": 1,
+      "name": "project-management-experiment-tracker-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-feishu-integration-developer-md"
+    },
+    {
+      "count": 1,
+      "name": "support-finance-tracker-md"
+    },
+    {
+      "count": 1,
       "name": "frontend-toml"
     },
     {
       "count": 1,
+      "name": "engineering-frontend-developer-md"
+    },
+    {
+      "count": 1,
+      "name": "game-audio-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "game-designer-md"
+    },
+    {
+      "count": 1,
+      "name": "academic-geographer-md"
+    },
+    {
+      "count": 1,
       "name": "git-ops-toml"
+    },
+    {
+      "count": 1,
+      "name": "engineering-git-workflow-master-md"
+    },
+    {
+      "count": 1,
+      "name": "government-digital-presales-consultant-md"
+    },
+    {
+      "count": 1,
+      "name": "healthcare-marketing-compliance-md"
+    },
+    {
+      "count": 1,
+      "name": "academic-historian-md"
+    },
+    {
+      "count": 1,
+      "name": "identity-graph-operator-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-incident-response-commander-md"
+    },
+    {
+      "count": 1,
+      "name": "design-inclusive-visuals-specialist-md"
+    },
+    {
+      "count": 1,
+      "name": "support-infrastructure-maintainer-md"
+    },
+    {
+      "count": 1,
+      "name": "testing-reality-checker-md"
+    },
+    {
+      "count": 1,
+      "name": "project-management-jira-workflow-steward-md"
+    },
+    {
+      "count": 1,
+      "name": "support-legal-compliance-checker-md"
+    },
+    {
+      "count": 1,
+      "name": "level-designer-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-linkedin-content-creator-md"
+    },
+    {
+      "count": 1,
+      "name": "lsp-index-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "macos-spatial-metal-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-baidu-seo-specialist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-bilibili-content-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-carousel-growth-engine-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-china-ecommerce-operator-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-content-creator-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-cross-border-ecommerce-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-douyin-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-growth-hacker-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-instagram-curator-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-kuaishou-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-livestream-commerce-coach-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-podcast-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-private-domain-operator-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-reddit-community-builder-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-seo-specialist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-short-video-editing-coach-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-tiktok-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-twitter-engager-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-wechat-official-account-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-weibo-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-xiaohongshu-specialist-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-zhihu-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "specialized-mcp-builder-md"
     },
     {
       "count": 1,
@@ -515,7 +963,63 @@
     },
     {
       "count": 1,
+      "name": "engineering-mobile-app-builder-md"
+    },
+    {
+      "count": 1,
+      "name": "specialized-model-qa-md"
+    },
+    {
+      "count": 1,
+      "name": "narrative-designer-md"
+    },
+    {
+      "count": 1,
+      "name": "academic-narratologist-md"
+    },
+    {
+      "count": 1,
+      "name": "sales-outbound-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "paid-media-creative-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "paid-media-auditor-md"
+    },
+    {
+      "count": 1,
+      "name": "paid-media-paid-social-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "paid-media-ppc-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "paid-media-programmatic-buyer-md"
+    },
+    {
+      "count": 1,
+      "name": "paid-media-search-query-analyst-md"
+    },
+    {
+      "count": 1,
+      "name": "paid-media-tracking-specialist-md"
+    },
+    {
+      "count": 1,
       "name": "performance-toml"
+    },
+    {
+      "count": 1,
+      "name": "testing-performance-benchmarker-md"
+    },
+    {
+      "count": 1,
+      "name": "sales-pipeline-analyst-md"
     },
     {
       "count": 1,
@@ -523,11 +1027,71 @@
     },
     {
       "count": 1,
+      "name": "product-feedback-synthesizer-md"
+    },
+    {
+      "count": 1,
+      "name": "product-manager-md"
+    },
+    {
+      "count": 1,
+      "name": "product-sprint-prioritizer-md"
+    },
+    {
+      "count": 1,
+      "name": "product-trend-researcher-md"
+    },
+    {
+      "count": 1,
+      "name": "project-manager-senior-md"
+    },
+    {
+      "count": 1,
+      "name": "project-management-project-shepherd-md"
+    },
+    {
+      "count": 1,
+      "name": "sales-proposal-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "academic-psychologist-md"
+    },
+    {
+      "count": 1,
+      "name": "testing-evidence-collector-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-rapid-prototyper-md"
+    },
+    {
+      "count": 1,
+      "name": "recruitment-specialist-md"
+    },
+    {
+      "count": 1,
       "name": "refactorer-toml"
     },
     {
       "count": 1,
+      "name": "report-distribution-agent-md"
+    },
+    {
+      "count": 1,
       "name": "reviewer-toml"
+    },
+    {
+      "count": 1,
+      "name": "sales-coach-md"
+    },
+    {
+      "count": 1,
+      "name": "sales-data-extraction-agent-md"
+    },
+    {
+      "count": 1,
+      "name": "sales-engineer-md"
     },
     {
       "count": 1,
@@ -539,7 +1103,23 @@
     },
     {
       "count": 1,
+      "name": "engineering-security-engineer-md"
+    },
+    {
+      "count": 1,
       "name": "smart-contract-toml"
+    },
+    {
+      "count": 1,
+      "name": "marketing-social-media-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-software-architect-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-solidity-smart-contract-engineer-md"
     },
     {
       "count": 1,
@@ -547,7 +1127,83 @@
     },
     {
       "count": 1,
+      "name": "engineering-sre-md"
+    },
+    {
+      "count": 1,
+      "name": "project-management-studio-operations-md"
+    },
+    {
+      "count": 1,
+      "name": "project-management-studio-producer-md"
+    },
+    {
+      "count": 1,
+      "name": "study-abroad-advisor-md"
+    },
+    {
+      "count": 1,
+      "name": "supply-chain-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "support-support-responder-md"
+    },
+    {
+      "count": 1,
+      "name": "technical-artist-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-technical-writer-md"
+    },
+    {
+      "count": 1,
+      "name": "terminal-integration-specialist-md"
+    },
+    {
+      "count": 1,
+      "name": "testing-test-results-analyzer-md"
+    },
+    {
+      "count": 1,
       "name": "tester-toml"
+    },
+    {
+      "count": 1,
+      "name": "engineering-threat-detection-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "testing-tool-evaluator-md"
+    },
+    {
+      "count": 1,
+      "name": "design-ui-designer-md"
+    },
+    {
+      "count": 1,
+      "name": "design-ux-researcher-md"
+    },
+    {
+      "count": 1,
+      "name": "visionos-spatial-engineer-md"
+    },
+    {
+      "count": 1,
+      "name": "design-visual-storyteller-md"
+    },
+    {
+      "count": 1,
+      "name": "engineering-wechat-mini-program-developer-md"
+    },
+    {
+      "count": 1,
+      "name": "pull-request-template-md"
+    },
+    {
+      "count": 1,
+      "name": "design-whimsy-injector-md"
     },
     {
       "count": 1,
@@ -572,6 +1228,46 @@
     {
       "count": 1,
       "name": "worker-xhigh-toml"
+    },
+    {
+      "count": 1,
+      "name": "specialized-workflow-architect-md"
+    },
+    {
+      "count": 1,
+      "name": "testing-workflow-optimizer-md"
+    },
+    {
+      "count": 1,
+      "name": "xr-cockpit-interaction-specialist-md"
+    },
+    {
+      "count": 1,
+      "name": "xr-immersive-developer-md"
+    },
+    {
+      "count": 1,
+      "name": "xr-interface-architect-md"
+    },
+    {
+      "count": 1,
+      "name": "marketing-ai-citation-strategist-md"
+    },
+    {
+      "count": 1,
+      "name": "specialized-french-consulting-market-md"
+    },
+    {
+      "count": 1,
+      "name": "specialized-korean-business-navigator-md"
+    },
+    {
+      "count": 1,
+      "name": "specialized-salesforce-architect-md"
+    },
+    {
+      "count": 1,
+      "name": "zk-steward-md"
     },
     {
       "count": 1,
@@ -811,14 +1507,6 @@
     },
     {
       "count": 1,
-      "name": "design"
-    },
-    {
-      "count": 1,
-      "name": "design-image-prompt-engineer-md"
-    },
-    {
-      "count": 1,
       "name": "parallel-task-md"
     },
     {
@@ -832,72 +1520,72 @@
   ],
   "languages": [
     {
-      "count": 113,
-      "name": "sql"
-    },
-    {
-      "count": 88,
+      "count": 143,
       "name": "c"
     },
     {
-      "count": 76,
+      "count": 133,
+      "name": "sql"
+    },
+    {
+      "count": 110,
       "name": "javascript"
     },
     {
-      "count": 42,
+      "count": 45,
       "name": "python"
     },
     {
-      "count": 33,
+      "count": 41,
       "name": "typescript"
     },
     {
-      "count": 28,
+      "count": 38,
       "name": "swift"
     },
     {
-      "count": 27,
+      "count": 33,
       "name": "react"
     },
     {
-      "count": 18,
+      "count": 19,
       "name": "java"
     },
     {
-      "count": 18,
+      "count": 19,
       "name": "php"
     },
     {
-      "count": 13,
+      "count": 17,
       "name": "csharp"
     },
     {
-      "count": 11,
+      "count": 12,
       "name": "ruby"
+    },
+    {
+      "count": 10,
+      "name": "vue"
     },
     {
       "count": 9,
       "name": "rust"
     },
     {
-      "count": 9,
-      "name": "vue"
+      "count": 8,
+      "name": "powershell"
+    },
+    {
+      "count": 7,
+      "name": "cpp"
     },
     {
       "count": 6,
       "name": "elixir"
     },
     {
-      "count": 6,
-      "name": "powershell"
-    },
-    {
       "count": 5,
       "name": "kotlin"
-    },
-    {
-      "count": 4,
-      "name": "cpp"
     },
     {
       "count": 3,
@@ -918,63 +1606,63 @@
   ],
   "roles": [
     {
-      "count": 370,
+      "count": 469,
       "name": "expert"
     },
     {
-      "count": 231,
+      "count": 297,
       "name": "architect"
     },
     {
-      "count": 118,
-      "name": "engineer"
-    },
-    {
-      "count": 89,
-      "name": "developer"
-    },
-    {
-      "count": 77,
+      "count": 187,
       "name": "specialist"
     },
     {
-      "count": 24,
+      "count": 164,
+      "name": "engineer"
+    },
+    {
+      "count": 114,
+      "name": "developer"
+    },
+    {
+      "count": 40,
       "name": "manager"
     },
     {
-      "count": 20,
-      "name": "admin"
-    },
-    {
-      "count": 17,
-      "name": "orchestrator"
-    },
-    {
-      "count": 16,
-      "name": "reviewer"
-    },
-    {
-      "count": 16,
+      "count": 25,
       "name": "analyst"
     },
     {
-      "count": 14,
+      "count": 24,
+      "name": "admin"
+    },
+    {
+      "count": 20,
+      "name": "orchestrator"
+    },
+    {
+      "count": 19,
       "name": "auditor"
     },
     {
-      "count": 9,
+      "count": 18,
       "name": "designer"
     },
     {
-      "count": 8,
+      "count": 17,
+      "name": "reviewer"
+    },
+    {
+      "count": 12,
       "name": "writer"
     },
     {
-      "count": 5,
+      "count": 6,
       "name": "tester"
     },
     {
-      "count": 5,
+      "count": 6,
       "name": "coordinator"
     },
     {
@@ -984,72 +1672,72 @@
   ],
   "systems": [
     {
-      "count": 66,
+      "count": 87,
       "name": "github"
     },
     {
-      "count": 56,
+      "count": 63,
       "name": "docker"
     },
     {
-      "count": 46,
+      "count": 61,
       "name": "git"
     },
     {
-      "count": 33,
-      "name": "kubernetes"
-    },
-    {
-      "count": 32,
+      "count": 40,
       "name": "mcp"
     },
     {
-      "count": 25,
-      "name": "aws"
+      "count": 36,
+      "name": "kubernetes"
     },
     {
-      "count": 24,
+      "count": 33,
       "name": "ios"
     },
     {
-      "count": 23,
+      "count": 31,
+      "name": "aws"
+    },
+    {
+      "count": 25,
       "name": "azure"
     },
     {
-      "count": 16,
-      "name": "gcp"
-    },
-    {
-      "count": 16,
-      "name": "redis"
-    },
-    {
-      "count": 13,
+      "count": 20,
       "name": "windows"
     },
     {
-      "count": 10,
+      "count": 18,
+      "name": "redis"
+    },
+    {
+      "count": 18,
+      "name": "gcp"
+    },
+    {
+      "count": 12,
       "name": "slack"
     },
     {
-      "count": 9,
+      "count": 10,
+      "name": "postgres"
+    },
+    {
+      "count": 10,
       "name": "terraform"
+    },
+    {
+      "count": 9,
+      "name": "linear"
     },
     {
       "count": 7,
       "name": "linux"
     },
     {
-      "count": 7,
-      "name": "postgres"
-    },
-    {
       "count": 6,
       "name": "notion"
-    },
-    {
-      "count": 3,
-      "name": "linear"
     }
   ]
 }
