@@ -1,0 +1,1987 @@
+{
+  "duplicate_groups": [
+    {
+      "entries": [
+        {
+          "id": "agent--ai-engineer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/05-data-ai/ai-engineer.toml",
+              "source_branch": "main",
+              "source_path": "categories/05-data-ai/ai-engineer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--ai-engineer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/data-ai-ml/ai-engineer.toml",
+              "source_branch": "main",
+              "source_path": "agents/data-ai-ml/ai-engineer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "ai-engineer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--api-designer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/01-core-development/api-designer.toml",
+              "source_branch": "main",
+              "source_path": "categories/01-core-development/api-designer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--api-designer--am-will-codex-skills",
+          "model": "gpt-5.3-codex",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/api_designer.toml",
+              "source_branch": "main",
+              "source_path": "agents/api_designer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        },
+        {
+          "id": "agent--api-designer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/architecture-orchestration/api_designer.toml",
+              "source_branch": "main",
+              "source_path": "agents/architecture-orchestration/api_designer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "api-designer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--api-documenter--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.3-codex-spark",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/07-specialized-domains/api-documenter.toml",
+              "source_branch": "main",
+              "source_path": "categories/07-specialized-domains/api-documenter.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--api-documenter--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/backend-api/api-documenter.toml",
+              "source_branch": "main",
+              "source_path": "agents/backend-api/api-documenter.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "api-documenter",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--backend-developer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/01-core-development/backend-developer.toml",
+              "source_branch": "main",
+              "source_path": "categories/01-core-development/backend-developer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--backend-developer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/backend-api/backend-developer.toml",
+              "source_branch": "main",
+              "source_path": "agents/backend-api/backend-developer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "backend-developer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--blockchain-developer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/07-specialized-domains/blockchain-developer.toml",
+              "source_branch": "main",
+              "source_path": "categories/07-specialized-domains/blockchain-developer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--blockchain-developer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/blockchain-web3/blockchain-developer.toml",
+              "source_branch": "main",
+              "source_path": "agents/blockchain-web3/blockchain-developer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "blockchain-developer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--business-analyst--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/08-business-product/business-analyst.toml",
+              "source_branch": "main",
+              "source_path": "categories/08-business-product/business-analyst.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--business-analyst--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/data-ai-ml/business-analyst.toml",
+              "source_branch": "main",
+              "source_path": "agents/data-ai-ml/business-analyst.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "business-analyst",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--cloud-architect--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/03-infrastructure/cloud-architect.toml",
+              "source_branch": "main",
+              "source_path": "categories/03-infrastructure/cloud-architect.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--cloud-architect--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/architecture-orchestration/cloud-architect.toml",
+              "source_branch": "main",
+              "source_path": "agents/architecture-orchestration/cloud-architect.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "cloud-architect",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--code-reviewer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/04-quality-security/code-reviewer.toml",
+              "source_branch": "main",
+              "source_path": "categories/04-quality-security/code-reviewer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--code-reviewer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/documentation-content/code-reviewer.toml",
+              "source_branch": "main",
+              "source_path": "agents/documentation-content/code-reviewer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "code-reviewer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--content-marketer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.3-codex-spark",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/08-business-product/content-marketer.toml",
+              "source_branch": "main",
+              "source_path": "categories/08-business-product/content-marketer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--content-marketer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/documentation-content/content-marketer.toml",
+              "source_branch": "main",
+              "source_path": "agents/documentation-content/content-marketer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "content-marketer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--context-manager--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.3-codex-spark",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/09-meta-orchestration/context-manager.toml",
+              "source_branch": "main",
+              "source_path": "categories/09-meta-orchestration/context-manager.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--context-manager--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/architecture-orchestration/context-manager.toml",
+              "source_branch": "main",
+              "source_path": "agents/architecture-orchestration/context-manager.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "context-manager",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--cpp-pro--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/cpp-pro.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/cpp-pro.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--cpp-pro--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/languages-runtime/cpp-pro.toml",
+              "source_branch": "main",
+              "source_path": "agents/languages-runtime/cpp-pro.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "cpp-pro",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--data-analyst--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.3-codex-spark",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/05-data-ai/data-analyst.toml",
+              "source_branch": "main",
+              "source_path": "categories/05-data-ai/data-analyst.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--data-analyst--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/data-ai-ml/data-analyst.toml",
+              "source_branch": "main",
+              "source_path": "agents/data-ai-ml/data-analyst.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "data-analyst",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--data-engineer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/05-data-ai/data-engineer.toml",
+              "source_branch": "main",
+              "source_path": "categories/05-data-ai/data-engineer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--data-engineer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/data-ai-ml/data-engineer.toml",
+              "source_branch": "main",
+              "source_path": "agents/data-ai-ml/data-engineer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "data-engineer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--data-scientist--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/05-data-ai/data-scientist.toml",
+              "source_branch": "main",
+              "source_path": "categories/05-data-ai/data-scientist.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--data-scientist--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/data-ai-ml/data-scientist.toml",
+              "source_branch": "main",
+              "source_path": "agents/data-ai-ml/data-scientist.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "data-scientist",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--database-optimizer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/05-data-ai/database-optimizer.toml",
+              "source_branch": "main",
+              "source_path": "categories/05-data-ai/database-optimizer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--database-optimizer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/databases-storage/database-optimizer.toml",
+              "source_branch": "main",
+              "source_path": "agents/databases-storage/database-optimizer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        },
+        {
+          "id": "agent--database-optimizer--msitarzewski-agency-agents",
+          "model": "",
+          "model_reasoning_effort": "",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-database-optimizer.md",
+              "source_branch": "main",
+              "source_path": "engineering/engineering-database-optimizer.md",
+              "source_repo": "msitarzewski/agency-agents"
+            }
+          ]
+        }
+      ],
+      "name": "database-optimizer",
+      "repo_count": 3,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills",
+        "msitarzewski/agency-agents"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--debugger--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/04-quality-security/debugger.toml",
+              "source_branch": "main",
+              "source_path": "categories/04-quality-security/debugger.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--debugger--am-will-codex-skills",
+          "model": "gpt-5.3-codex",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/debugger.toml",
+              "source_branch": "main",
+              "source_path": "agents/debugger.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        },
+        {
+          "id": "agent--debugger--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/general/debugger.toml",
+              "source_branch": "main",
+              "source_path": "agents/general/debugger.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "debugger",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--deployment-engineer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/03-infrastructure/deployment-engineer.toml",
+              "source_branch": "main",
+              "source_path": "categories/03-infrastructure/deployment-engineer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--deployment-engineer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/devops-cloud-infra/deployment-engineer.toml",
+              "source_branch": "main",
+              "source_path": "agents/devops-cloud-infra/deployment-engineer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "deployment-engineer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--docker-expert--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.3-codex-spark",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/03-infrastructure/docker-expert.toml",
+              "source_branch": "main",
+              "source_path": "categories/03-infrastructure/docker-expert.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--docker-expert--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/devops-cloud-infra/docker-expert.toml",
+              "source_branch": "main",
+              "source_path": "agents/devops-cloud-infra/docker-expert.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "docker-expert",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--dx-optimizer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/06-developer-experience/dx-optimizer.toml",
+              "source_branch": "main",
+              "source_path": "categories/06-developer-experience/dx-optimizer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--dx-optimizer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/general/dx-optimizer.toml",
+              "source_branch": "main",
+              "source_path": "agents/general/dx-optimizer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "dx-optimizer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--elixir-expert--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/elixir-expert.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/elixir-expert.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--elixir-expert--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/languages-runtime/elixir-expert.toml",
+              "source_branch": "main",
+              "source_path": "agents/languages-runtime/elixir-expert.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "elixir-expert",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--error-detective--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.3-codex-spark",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/04-quality-security/error-detective.toml",
+              "source_branch": "main",
+              "source_path": "categories/04-quality-security/error-detective.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--error-detective--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/general/error-detective.toml",
+              "source_branch": "main",
+              "source_path": "agents/general/error-detective.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "error-detective",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--flutter-expert--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/flutter-expert.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/flutter-expert.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--flutter-expert--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/mobile/flutter-expert.toml",
+              "source_branch": "main",
+              "source_path": "agents/mobile/flutter-expert.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "flutter-expert",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--frontend-developer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/01-core-development/frontend-developer.toml",
+              "source_branch": "main",
+              "source_path": "categories/01-core-development/frontend-developer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--frontend-developer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/frontend-ui/frontend-developer.toml",
+              "source_branch": "main",
+              "source_path": "agents/frontend-ui/frontend-developer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "frontend-developer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--game-developer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/07-specialized-domains/game-developer.toml",
+              "source_branch": "main",
+              "source_path": "categories/07-specialized-domains/game-developer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--game-developer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/general/game-developer.toml",
+              "source_branch": "main",
+              "source_path": "agents/general/game-developer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "game-developer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--golang-pro--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/golang-pro.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/golang-pro.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--golang-pro--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/languages-runtime/golang-pro.toml",
+              "source_branch": "main",
+              "source_path": "agents/languages-runtime/golang-pro.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "golang-pro",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--graphql-architect--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/01-core-development/graphql-architect.toml",
+              "source_branch": "main",
+              "source_path": "categories/01-core-development/graphql-architect.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--graphql-architect--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/architecture-orchestration/graphql-architect.toml",
+              "source_branch": "main",
+              "source_path": "agents/architecture-orchestration/graphql-architect.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "graphql-architect",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--incident-responder--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/03-infrastructure/incident-responder.toml",
+              "source_branch": "main",
+              "source_path": "categories/03-infrastructure/incident-responder.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--incident-responder--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/devops-cloud-infra/incident-responder.toml",
+              "source_branch": "main",
+              "source_path": "agents/devops-cloud-infra/incident-responder.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "incident-responder",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--javascript-pro--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/javascript-pro.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/javascript-pro.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--javascript-pro--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/languages-runtime/javascript-pro.toml",
+              "source_branch": "main",
+              "source_path": "agents/languages-runtime/javascript-pro.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "javascript-pro",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--legacy-modernizer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/06-developer-experience/legacy-modernizer.toml",
+              "source_branch": "main",
+              "source_path": "categories/06-developer-experience/legacy-modernizer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--legacy-modernizer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/general/legacy-modernizer.toml",
+              "source_branch": "main",
+              "source_path": "agents/general/legacy-modernizer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "legacy-modernizer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--legal-advisor--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/08-business-product/legal-advisor.toml",
+              "source_branch": "main",
+              "source_path": "categories/08-business-product/legal-advisor.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--legal-advisor--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/security/legal-advisor.toml",
+              "source_branch": "main",
+              "source_path": "agents/security/legal-advisor.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "legal-advisor",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--ml-engineer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/05-data-ai/ml-engineer.toml",
+              "source_branch": "main",
+              "source_path": "categories/05-data-ai/ml-engineer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--ml-engineer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/data-ai-ml/ml-engineer.toml",
+              "source_branch": "main",
+              "source_path": "agents/data-ai-ml/ml-engineer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "ml-engineer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--mlops-engineer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/05-data-ai/mlops-engineer.toml",
+              "source_branch": "main",
+              "source_path": "categories/05-data-ai/mlops-engineer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--mlops-engineer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/data-ai-ml/mlops-engineer.toml",
+              "source_branch": "main",
+              "source_path": "agents/data-ai-ml/mlops-engineer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "mlops-engineer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--mobile-developer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/01-core-development/mobile-developer.toml",
+              "source_branch": "main",
+              "source_path": "categories/01-core-development/mobile-developer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--mobile-developer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/frontend-ui/mobile-developer.toml",
+              "source_branch": "main",
+              "source_path": "agents/frontend-ui/mobile-developer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "mobile-developer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--network-engineer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/03-infrastructure/network-engineer.toml",
+              "source_branch": "main",
+              "source_path": "categories/03-infrastructure/network-engineer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--network-engineer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/devops-cloud-infra/network-engineer.toml",
+              "source_branch": "main",
+              "source_path": "agents/devops-cloud-infra/network-engineer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "network-engineer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--payment-integration--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/07-specialized-domains/payment-integration.toml",
+              "source_branch": "main",
+              "source_path": "categories/07-specialized-domains/payment-integration.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--payment-integration--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/general/payment-integration.toml",
+              "source_branch": "main",
+              "source_path": "agents/general/payment-integration.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "payment-integration",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--performance-engineer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/04-quality-security/performance-engineer.toml",
+              "source_branch": "main",
+              "source_path": "categories/04-quality-security/performance-engineer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--performance-engineer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/general/performance-engineer.toml",
+              "source_branch": "main",
+              "source_path": "agents/general/performance-engineer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "performance-engineer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--php-pro--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/php-pro.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/php-pro.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--php-pro--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/languages-runtime/php-pro.toml",
+              "source_branch": "main",
+              "source_path": "agents/languages-runtime/php-pro.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "php-pro",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--prompt-engineer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/05-data-ai/prompt-engineer.toml",
+              "source_branch": "main",
+              "source_path": "categories/05-data-ai/prompt-engineer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--prompt-engineer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/data-ai-ml/prompt-engineer.toml",
+              "source_branch": "main",
+              "source_path": "agents/data-ai-ml/prompt-engineer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "prompt-engineer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--python-pro--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/python-pro.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/python-pro.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--python-pro--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/languages-runtime/python-pro.toml",
+              "source_branch": "main",
+              "source_path": "agents/languages-runtime/python-pro.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "python-pro",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--quant-analyst--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/07-specialized-domains/quant-analyst.toml",
+              "source_branch": "main",
+              "source_path": "categories/07-specialized-domains/quant-analyst.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--quant-analyst--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/general/quant-analyst.toml",
+              "source_branch": "main",
+              "source_path": "agents/general/quant-analyst.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "quant-analyst",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--rails-expert--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/rails-expert.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/rails-expert.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--rails-expert--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/backend-api/rails-expert.toml",
+              "source_branch": "main",
+              "source_path": "agents/backend-api/rails-expert.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "rails-expert",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--reviewer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/04-quality-security/reviewer.toml",
+              "source_branch": "main",
+              "source_path": "categories/04-quality-security/reviewer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--reviewer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/reviewer.toml",
+              "source_branch": "main",
+              "source_path": "agents/reviewer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "reviewer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--risk-manager--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/07-specialized-domains/risk-manager.toml",
+              "source_branch": "main",
+              "source_path": "categories/07-specialized-domains/risk-manager.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--risk-manager--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/security/risk-manager.toml",
+              "source_branch": "main",
+              "source_path": "agents/security/risk-manager.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "risk-manager",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--search-specialist--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.3-codex-spark",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/10-research-analysis/search-specialist.toml",
+              "source_branch": "main",
+              "source_path": "categories/10-research-analysis/search-specialist.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--search-specialist--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/documentation-content/search-specialist.toml",
+              "source_branch": "main",
+              "source_path": "agents/documentation-content/search-specialist.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "search-specialist",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--security-auditor--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/04-quality-security/security-auditor.toml",
+              "source_branch": "main",
+              "source_path": "categories/04-quality-security/security-auditor.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--security-auditor--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/security/security-auditor.toml",
+              "source_branch": "main",
+              "source_path": "agents/security/security-auditor.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "security-auditor",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--sql-pro--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/sql-pro.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/sql-pro.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--sql-pro--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/frontend-ui/sql-pro.toml",
+              "source_branch": "main",
+              "source_path": "agents/frontend-ui/sql-pro.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "sql-pro",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--swift-expert--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/swift-expert.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/swift-expert.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--swift-expert--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/languages-runtime/swift-expert.toml",
+              "source_branch": "main",
+              "source_path": "agents/languages-runtime/swift-expert.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "swift-expert",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--test-automator--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.3-codex-spark",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/04-quality-security/test-automator.toml",
+              "source_branch": "main",
+              "source_path": "categories/04-quality-security/test-automator.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--test-automator--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/testing-quality/test-automator.toml",
+              "source_branch": "main",
+              "source_path": "agents/testing-quality/test-automator.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "test-automator",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--typescript-pro--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/typescript-pro.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/typescript-pro.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--typescript-pro--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/languages-runtime/typescript-pro.toml",
+              "source_branch": "main",
+              "source_path": "agents/languages-runtime/typescript-pro.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "typescript-pro",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--ui-designer--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "read-only",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/01-core-development/ui-designer.toml",
+              "source_branch": "main",
+              "source_path": "categories/01-core-development/ui-designer.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--ui-designer--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/frontend-ui/ui-designer.toml",
+              "source_branch": "main",
+              "source_path": "agents/frontend-ui/ui-designer.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "ui-designer",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    },
+    {
+      "entries": [
+        {
+          "id": "agent--vue-expert--voltagent-awesome-codex-subagents",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "high",
+          "sandbox_mode": "workspace-write",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-codex-subagents/main/categories/02-language-specialists/vue-expert.toml",
+              "source_branch": "main",
+              "source_path": "categories/02-language-specialists/vue-expert.toml",
+              "source_repo": "VoltAgent/awesome-codex-subagents"
+            }
+          ]
+        },
+        {
+          "id": "agent--vue-expert--am-will-codex-skills",
+          "model": "gpt-5.4",
+          "model_reasoning_effort": "medium",
+          "sandbox_mode": "",
+          "source_refs": [
+            {
+              "raw_url": "https://raw.githubusercontent.com/am-will/codex-skills/main/agents/frontend-ui/vue-expert.toml",
+              "source_branch": "main",
+              "source_path": "agents/frontend-ui/vue-expert.toml",
+              "source_repo": "am-will/codex-skills"
+            }
+          ]
+        }
+      ],
+      "name": "vue-expert",
+      "repo_count": 2,
+      "source_repos": [
+        "VoltAgent/awesome-codex-subagents",
+        "am-will/codex-skills"
+      ]
+    }
+  ],
+  "generated_at_utc": "2026-03-18T08:06:27+00:00",
+  "total_duplicate_names": 51
+}

@@ -1,75 +1,97 @@
-# Codex Helper
+# Codex-Software-Developer
 
-One-repo setup to make a Codex install production-ready quickly.
+Canonical, English-first, reproducible knowledge base for Codex agents, subagents, skills, roles, jobs, systems, prompts, and workflows, plus an install-ready Codex helper toolkit.
 
-This repository gives you:
-- reusable custom agents (`.codex/agents/*.toml`)
-- reusable custom skills (`.agents/skills/*/SKILL.md`)
-- safe install/sync scripts
-- copy-ready Obsidian knowledge graph notes (`for_obsidian/`)
-- routing docs for when to use which agent or skill
+## What This Repo Does
 
-## Quick start
+- Aggregates multiple public agent/skill repositories into one canonical index.
+- Deduplicates agent names and generates one merged canonical definition per name.
+- Preserves detailed provenance for canonical output files.
+- Builds Obsidian-friendly docs and relationship maps.
+- Provides portable local install assets (custom agents/skills/scripts) for Codex users.
+
+## Source Repositories
+
+- `am-will/codex-skills` (`main`)
+- `proflead/codex-skills-library` (`master`)
+- `VoltAgent/awesome-codex-subagents` (`main`)
+- `Dimillian/Skills` (`main`)
+- `ComposioHQ/awesome-codex-skills` (`master`)
+- `msitarzewski/agency-agents` (`main`)
+
+## Current Snapshot
+
+- Indexed source files: **1280**
+- Indexed binary assets: **57** (indexed only, not copied)
+- Canonical agents: **627**
+- Canonical skills: **130**
+- Canonical prompts: **20**
+- Cross-repo duplicate agent names merged: **51**
+
+## Repository Layout
+
+```text
+config/                 # source definitions
+scripts/                # reproducible build/index/validate pipeline + helper install scripts
+catalog/                # machine-readable manifests and normalized contracts
+knowledge/agents/       # canonical merged agent TOMLs
+knowledge/skills/       # canonical skill markdown
+knowledge/prompts/      # canonical prompt markdown
+docs/                   # source map, merge policy, matrix, install/routing guides
+Obsidian-Helper.md      # vault-first relationship guide
+for_obsidian/           # copy-ready Codex helper bundle for Obsidian
+.codex/agents/          # installable custom Codex agents
+.agents/skills/         # installable custom Codex skills
+```
+
+## Canonical Pipeline Quickstart
 
 ```bash
-# 1) Clone
-git clone <your-new-repo-url> Codex-Helper
-cd Codex-Helper
+python3 scripts/fetch_sources.py
+python3 scripts/index_files.py
+python3 scripts/extract_entities.py
+python3 scripts/build_canonical.py
+python3 scripts/build_docs.py
+python3 scripts/validate_repo.py
+```
 
-# 2) Install assets into your local Codex home
+## Codex Helper Toolkit Quickstart
+
+```bash
+# Install local Codex assets from this repo
 ./scripts/install_codex_helper.sh
 
-# 3) (Optional) append global guidance into ~/.codex/AGENTS.md
+# Optional: append reusable global guidance into ~/.codex/AGENTS.md
 ./scripts/install_codex_helper.sh --with-global-guidance
 
-# 4) (Optional) update existing installs from repo versions
+# Optional: force overwrite matching assets (with backup)
 ./scripts/install_codex_helper.sh --force
-```
 
-## What gets installed
-
-| Asset | Source in repo | Installed location |
-|---|---|---|
-| Custom agents | `.codex/agents/*.toml` | `~/.codex/agents/` |
-| Custom skills | `.agents/skills/*` | `~/.agents/skills/` |
-| Config template | `.codex/config.toml` | `~/.codex/config.codex-helper.example.toml` |
-| Global AGENTS guidance (optional) | `templates/global-AGENTS.md` | appended to `~/.codex/AGENTS.md` |
-
-## Obsidian bundle
-
-`for_obsidian/` is designed to be copied as a single folder into an Obsidian vault.
-
-```bash
+# Export copy-ready Obsidian bundle
 ./scripts/export_obsidian_bundle.sh "/path/to/YourObsidianVault"
-# overwrite existing exported folder if needed
-./scripts/export_obsidian_bundle.sh --force "/path/to/YourObsidianVault"
 ```
 
-This creates `YourObsidianVault/Codex-Helper/` with linked notes, tables, and diagrams.
-
-## Human setup steps (no scripts)
+## Human Setup (No Scripts)
 
 1. Copy `.codex/agents/*.toml` to `~/.codex/agents/`.
 2. Copy `.agents/skills/*` to `~/.agents/skills/`.
-3. Copy `.codex/config.toml` to `~/.codex/config.codex-helper.example.toml` and merge what you need into `~/.codex/config.toml`.
-4. Optionally append `templates/global-AGENTS.md` guidance into `~/.codex/AGENTS.md`.
+3. Copy `.codex/config.toml` to `~/.codex/config.codex-helper.example.toml`.
+4. Optionally append `templates/global-AGENTS.md` into `~/.codex/AGENTS.md`.
 
-Detailed instructions: `docs/getting-all-assets-locally.md`.
+## Routing And Decision Docs
 
-## Decision docs
+- Local install and sync: `docs/getting-all-assets-locally.md`
+- Skill/agent routing playbook: `docs/routing-playbook.md`
+- Repo structure notes: `docs/repo-layout.md`
+- Codex official docs alignment (verified 2026-03-18): `docs/latest-openai-codex-notes-2026-03-18.md`
 
-- Codex routing playbook: `docs/routing-playbook.md`
-- Repo structure: `docs/repo-layout.md`
-- Official Codex alignment notes (verified 2026-03-18): `docs/latest-openai-codex-notes-2026-03-18.md`
+## Official Codex References (Verified 2026-03-18)
 
-## Current official docs alignment (verified 2026-03-18)
-
-This repo was cross-checked against current OpenAI Codex docs:
-- Codex docs hub: <https://developers.openai.com/codex>
-- CLI docs: <https://developers.openai.com/codex/cli>
-- Config basics: <https://developers.openai.com/codex/config-basic>
-- AGENTS.md docs: <https://developers.openai.com/codex/agents-md>
-- Skills docs: <https://developers.openai.com/codex/skills>
-- Subagents docs: <https://developers.openai.com/codex/subagents>
-- Codex models docs: <https://developers.openai.com/codex/models>
-- Open-source Codex repo: <https://github.com/openai/codex>
+- <https://developers.openai.com/codex>
+- <https://developers.openai.com/codex/cli>
+- <https://developers.openai.com/codex/config-basic>
+- <https://developers.openai.com/codex/agents-md>
+- <https://developers.openai.com/codex/skills>
+- <https://developers.openai.com/codex/subagents>
+- <https://developers.openai.com/codex/models>
+- <https://github.com/openai/codex>
