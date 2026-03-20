@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: slack-gif-creator
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like "make me a GIF for Slack of X doing Y".

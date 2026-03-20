@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: blockchain-developer
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs blockchain or Web3 implementation and review across smart-contract integration, wallet flows, or transaction lifecycle handling. / Use when implementing blockchain functionality with production-grade patterns and safeguards.

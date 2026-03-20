@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: dependency-risk-audit
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Audit dependencies for licensing, security, and maintenance risk. Use when a senior developer needs risk assessment.

@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: gh-fix-ci
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Inspect GitHub PR checks with gh, pull failing GitHub Actions logs, summarize failure context, then create a fix plan and implement after user approval. Use when a user asks to debug or fix failing PR CI/CD checks on GitHub Actions and wants a plan + code changes; for external checks (e.g., Buildkite), only report the details URL and mark them out of scope.

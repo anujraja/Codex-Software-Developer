@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: skill-installer
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).

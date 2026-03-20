@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: cloud-architect
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs cloud architecture review across compute, storage, networking, reliability, or multi-service design. / Use when architecture decisions and long-term system tradeoffs require senior guidance.

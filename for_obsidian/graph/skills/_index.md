@@ -4,7 +4,7 @@ tags: [codex, graph, skills, index]
 
 # Skill Node Index
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 - [[graph/skills/accessibility-basic-check|accessibility-basic-check]]
 - [[graph/skills/agent-browser|agent-browser]]

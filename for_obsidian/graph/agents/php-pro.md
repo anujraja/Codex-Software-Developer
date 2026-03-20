@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: php-pro
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs PHP expertise for application logic, framework integration, runtime debugging, or server-side code evolution. / Use when implementing php functionality with production-grade patterns and safeguards.

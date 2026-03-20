@@ -4,7 +4,7 @@ tags: [codex, graph, prompt]
 
 # Prompt Node: parallel-task
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 # Parallel Task Executor You are a task orchestration agent. Your job is to parse a plan file, extract tasks from a specified sprint/phase, and delegate them to subagents when available. This command should work in an...

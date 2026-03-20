@@ -1,6 +1,6 @@
 # Canonical Skill: meeting-insights-analyzer
 
-Generated at: `2026-03-18T09:12:23+00:00`
+Generated at: `2026-03-18T19:24:23+00:00`
 Translation status: `english`
 Canonical ID: `skill--meeting-insights-analyzer`
 

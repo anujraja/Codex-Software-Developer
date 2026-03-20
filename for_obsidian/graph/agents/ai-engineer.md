@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: ai-engineer
 
-Generated at: `2026-03-18T09:44:22+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs implementation or debugging of model-backed application features, agent flows, or evaluation hooks. / Use when implementing AI functionality with production-grade patterns and safeguards.

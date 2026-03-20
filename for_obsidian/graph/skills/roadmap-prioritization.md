@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: roadmap-prioritization
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Prioritize roadmap initiatives with tradeoffs. Use when a senior developer needs help ranking projects.

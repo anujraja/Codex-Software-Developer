@@ -1,0 +1,301 @@
+{
+  "main": {
+    "id": "0e0a9a985e074fea",
+    "type": "split",
+    "children": [
+      {
+        "id": "574c5829805be05a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "727f5c02d37f14ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "for_obsidian/graph/agents/_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          }
+        ]
+      },
+      {
+        "id": "971943e1b334a455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41513a49bf75ade8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "for_obsidian/graph/agents/documenter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "documenter"
+            }
+          },
+          {
+            "id": "47d848c499c00ad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "for_obsidian/graph/agents/documentation-specialist.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "documentation-specialist"
+            }
+          },
+          {
+            "id": "76613c9dff6caa41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "for_obsidian/graph/agents/documentation-engineer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "documentation-engineer"
+            }
+          },
+          {
+            "id": "c7684d54d4e0f495",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "for_obsidian/graph/agents/docs-researcher.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "docs-researcher"
+            }
+          },
+          {
+            "id": "dd40e1710b24171b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "for_obsidian/graph/agents/docs-architect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "docs-architect"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6c115bfda065207",
+    "type": "split",
+    "children": [
+      {
+        "id": "aaba12205c497059",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4a7cb713f551640",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "007e1820f749e0b1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "00e396d5b7b481e7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "be425835fd7d994b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f701614e6877fb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "531813a0c8afed77",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "0be907f202ec5c5c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "for_obsidian/graph/agents/python-expert.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from python-expert"
+            }
+          },
+          {
+            "id": "2aa745cc7d65be1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2a2720e1a092233a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "befc68678360ba4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "for_obsidian/graph/agents/python-expert.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of python-expert"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "dd40e1710b24171b",
+  "lastOpenFiles": [
+    "for_obsidian/graph/agents/documentation-specialist.md",
+    "for_obsidian/graph/agents/documenter.md",
+    "for_obsidian/graph/agents/documentation-engineer.md",
+    "for_obsidian/graph/agents/docs-researcher.md",
+    "for_obsidian/graph/agents/_index.md",
+    "for_obsidian/graph/agents/docusaurus-expert.md",
+    "for_obsidian/graph/agents/docs-architect.md",
+    "for_obsidian/graph/playbooks/security-and-review.md",
+    "for_obsidian/03_Skills.md",
+    "scripts/__pycache__/build_docs.cpython-313.pyc",
+    "knowledge/agents/worker-spark-xhigh.toml",
+    "knowledge/agents/worker-mini.toml",
+    "knowledge/agents/vue-nuxt-expert.toml",
+    "knowledge/agents/vitest-expert.toml",
+    "knowledge/agents/vector-db-expert.toml",
+    "knowledge/agents/twitter-ai-influencer-manager.toml",
+    "knowledge/agents/trend-analyst.toml",
+    "knowledge/agents/testcafe-expert.toml",
+    "knowledge/agents/terraform-specialist.toml",
+    "for_obsidian/graph/skills/unit-test-starter.md",
+    "for_obsidian/graph/skills/ticket-breakdown.md",
+    "for_obsidian/graph/skills/tailored-resume-generator.md",
+    "for_obsidian/graph/skills/swarm-planner.md",
+    "for_obsidian/graph/skills/sql-query-starter.md",
+    "for_obsidian/graph/skills/skill-share.md",
+    "for_obsidian/graph/skills/skill-creator.md",
+    "for_obsidian/graph/skills/queue-processing-patterns.md",
+    "for_obsidian/graph/skills/project-skill-audit.md",
+    "for_obsidian/graph/skills/gh-address-comments.md",
+    "for_obsidian/graph/skills/feature-flag-playbook.md",
+    "for_obsidian/graph/skills/domain-name-brainstormer.md",
+    "for_obsidian/graph/skills/dependency-risk-audit.md",
+    "for_obsidian/graph/skills/data-governance-check.md",
+    "for_obsidian/graph/skills/context7.md",
+    "for_obsidian/graph/skills/connect-apps.md",
+    "for_obsidian/graph/skills/ci-failure-triage.md"
+  ]
+}

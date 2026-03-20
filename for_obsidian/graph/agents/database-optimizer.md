@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: database-optimizer
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs database performance analysis for query plans, schema design, indexing, or data access patterns. / Use when slow queries, indexing, or schema design are hurting database performance.

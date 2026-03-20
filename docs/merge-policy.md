@@ -1,6 +1,6 @@
 # Merge Policy
 
-Generated at: `2026-03-18T09:44:22+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## Canonicalization Rules
 1. Source inputs are parsed into normalized entity contracts in `catalog/*.jsonl`.

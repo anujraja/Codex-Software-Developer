@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: powershell-module-architect
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs PowerShell module structure, command design, packaging, or profile architecture work.

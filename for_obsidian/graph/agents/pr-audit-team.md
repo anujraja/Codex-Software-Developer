@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: pr-audit-team
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use only when a human explicitly asks for the PR Audit Team to run merge-readiness review and conditionally invoke platform specialists based on PR diff and operational risk.

@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: context-manager
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs a compact project context summary that other subagents can rely on before deeper work begins. / Use when long-running efforts need context tracking and continuity across parallel work.

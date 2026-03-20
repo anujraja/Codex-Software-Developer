@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: swift-concurrency-expert
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Swift Concurrency review and remediation for Swift 6.2+. Use when asked to review Swift Concurrency usage, improve concurrency compliance, or fix Swift concurrency compiler errors in a feature or file. Concrete actions include adding Sendable conformance, applying @MainActor annotations, resolving actor isolation warnings, fixing data race diagnostics, and migrating completion handlers to async/await.

@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: sql-query-starter
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Draft a basic SQL query from a simple requirement. Use when a junior developer needs help forming SELECT queries.

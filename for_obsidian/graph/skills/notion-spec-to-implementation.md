@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: notion-spec-to-implementation
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.

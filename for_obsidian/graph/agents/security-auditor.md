@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: security-auditor
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use before release to assess vulnerabilities, auth gaps, and security compliance risks. / Use when a task needs focused security review of code, auth flows, secrets handling, input validation, or infrastructure configuration.

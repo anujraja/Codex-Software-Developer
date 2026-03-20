@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: backend-delivery-team
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use only when a human explicitly asks for the Backend Delivery Team to orchestrate backend delivery across API, data, security, and framework-specific execution.

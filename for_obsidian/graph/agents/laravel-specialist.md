@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: laravel-specialist
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs Laravel-specific work across routing, Eloquent, queues, validation, or application structure.

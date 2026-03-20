@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: performance-monitor
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs ongoing performance-signal interpretation across build, runtime, or operational metrics before deeper optimization starts.

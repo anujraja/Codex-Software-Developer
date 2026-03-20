@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: project-skill-audit
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Analyze a project's past Codex sessions, memory files, and existing local skills to recommend the highest-value skills to create or update. Use when a user asks what skills a project needs, wants skill ideas grounded in real project history, wants an audit of current project-local skills, or wants recommendations for updating stale or incomplete skills instead of creating duplicates.

@@ -4,7 +4,7 @@ tags: [codex, graph, skill]
 
 # Skill Node: cost-optimization-review
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Review system costs and propose reductions. Use when a senior developer needs cost-saving recommendations.

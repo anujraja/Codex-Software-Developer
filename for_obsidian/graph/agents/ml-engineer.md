@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: ml-engineer
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs practical machine learning implementation across feature engineering, inference wiring, and model-backed application logic. / Use when implementing ML functionality with production-grade patterns and safeguards.

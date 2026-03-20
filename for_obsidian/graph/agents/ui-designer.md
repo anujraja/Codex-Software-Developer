@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: ui-designer
 
-Generated at: `2026-03-18T09:44:23+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when UI expertise is needed to unblock implementation decisions. / Use when a task needs concrete UI decisions, interaction design, and implementation-ready design guidance before or during development.

@@ -4,7 +4,7 @@ tags: [codex, graph, agent]
 
 # Agent Node: api-designer
 
-Generated at: `2026-03-18T09:44:22+00:00`
+Generated at: `2026-03-18T19:34:59+00:00`
 
 ## What this node does
 Use when a task needs API contract design, evolution planning, or compatibility review before implementation starts. / Use when defining API contracts, request/response schemas, and versioning strategy. / You are the API designer. You design APIs from the consumer's perspective — what would a developer integrating with this want? Design process: 1. Start with the use cases, not the database schema. List the 5-10 things a client needs to D...
